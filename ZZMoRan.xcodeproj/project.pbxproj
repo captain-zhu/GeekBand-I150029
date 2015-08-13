@@ -11,6 +11,11 @@
 		CB5593111B7C341700B31461 /* ZZFaBuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5593101B7C341700B31461 /* ZZFaBuViewController.m */; };
 		CB55931A1B7C5FAC00B31461 /* ZZChaKanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5593191B7C5FAC00B31461 /* ZZChaKanViewController.m */; };
 		CB55931D1B7C5FD900B31461 /* ZZDengRuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB55931C1B7C5FD900B31461 /* ZZDengRuViewController.m */; };
+		CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */; };
+		CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */; };
+		CB8C2B111B7C7B4700064632 /* ZZTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B101B7C7B4700064632 /* ZZTabBarView.m */; };
+		CB8C2B181B7C95A500064632 /* ZZWoDeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */; };
+		CB8C2B1B1B7C96BA00064632 /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B1A1B7C96BA00064632 /* ZZNavigationController.m */; };
 		CBFC1B751B7C12EC00093C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B741B7C12EC00093C3B /* main.m */; };
 		CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B771B7C12EC00093C3B /* AppDelegate.m */; };
 		CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B791B7C12EC00093C3B /* ZZMoRan.xcdatamodeld */; };
@@ -41,6 +46,16 @@
 		CB5593191B7C5FAC00B31461 /* ZZChaKanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZChaKanViewController.m; sourceTree = "<group>"; };
 		CB55931B1B7C5FD900B31461 /* ZZDengRuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDengRuViewController.h; sourceTree = "<group>"; };
 		CB55931C1B7C5FD900B31461 /* ZZDengRuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDengRuViewController.m; sourceTree = "<group>"; };
+		CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTabBarViewController.h; sourceTree = "<group>"; };
+		CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTabBarViewController.m; sourceTree = "<group>"; };
+		CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGuangChangNavigationController.h; sourceTree = "<group>"; };
+		CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGuangChangNavigationController.m; sourceTree = "<group>"; };
+		CB8C2B0F1B7C7B4700064632 /* ZZTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTabBarView.h; sourceTree = "<group>"; };
+		CB8C2B101B7C7B4700064632 /* ZZTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTabBarView.m; sourceTree = "<group>"; };
+		CB8C2B161B7C95A500064632 /* ZZWoDeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWoDeNavigationController.h; sourceTree = "<group>"; };
+		CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWoDeNavigationController.m; sourceTree = "<group>"; };
+		CB8C2B191B7C96BA00064632 /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
+		CB8C2B1A1B7C96BA00064632 /* ZZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationController.m; sourceTree = "<group>"; };
 		CBFC1B6F1B7C12EC00093C3B /* ZZMoRan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMoRan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFC1B731B7C12EC00093C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFC1B741B7C12EC00093C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +101,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CB8C2B081B7C76DA00064632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB55930F1B7C341700B31461 /* ZZFaBuViewController.h */,
+				CB5593101B7C341700B31461 /* ZZFaBuViewController.m */,
+				CBFC1B9E1B7C145400093C3B /* ZZWoDeViewController.h */,
+				CBFC1B9F1B7C145400093C3B /* ZZWoDeViewController.m */,
+				CB55931B1B7C5FD900B31461 /* ZZDengRuViewController.h */,
+				CB55931C1B7C5FD900B31461 /* ZZDengRuViewController.m */,
+				CBFC1B9B1B7C142100093C3B /* ZZGuangchangViewController.h */,
+				CBFC1B9C1B7C142100093C3B /* ZZGuangchangViewController.m */,
+				CB5593181B7C5FAC00B31461 /* ZZChaKanViewController.h */,
+				CB5593191B7C5FAC00B31461 /* ZZChaKanViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB8C2B121B7C7B4D00064632 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B0F1B7C7B4700064632 /* ZZTabBarView.h */,
+				CB8C2B101B7C7B4700064632 /* ZZTabBarView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		CBFC1B661B7C12EC00093C3B = {
 			isa = PBXGroup;
 			children = (
@@ -111,18 +152,18 @@
 			children = (
 				CBFC1B761B7C12EC00093C3B /* AppDelegate.h */,
 				CBFC1B771B7C12EC00093C3B /* AppDelegate.m */,
-				CBFC1B9B1B7C142100093C3B /* ZZGuangchangViewController.h */,
-				CBFC1B9C1B7C142100093C3B /* ZZGuangchangViewController.m */,
-				CB5593181B7C5FAC00B31461 /* ZZChaKanViewController.h */,
-				CB5593191B7C5FAC00B31461 /* ZZChaKanViewController.m */,
-				CB55930F1B7C341700B31461 /* ZZFaBuViewController.h */,
-				CB5593101B7C341700B31461 /* ZZFaBuViewController.m */,
-				CBFC1B9E1B7C145400093C3B /* ZZWoDeViewController.h */,
-				CBFC1B9F1B7C145400093C3B /* ZZWoDeViewController.m */,
-				CB55931B1B7C5FD900B31461 /* ZZDengRuViewController.h */,
-				CB55931C1B7C5FD900B31461 /* ZZDengRuViewController.m */,
-				CBFC1B7F1B7C12EC00093C3B /* Main.storyboard */,
+				CB8C2B191B7C96BA00064632 /* ZZNavigationController.h */,
+				CB8C2B1A1B7C96BA00064632 /* ZZNavigationController.m */,
+				CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */,
+				CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */,
+				CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */,
+				CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */,
+				CB8C2B161B7C95A500064632 /* ZZWoDeNavigationController.h */,
+				CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */,
+				CB8C2B081B7C76DA00064632 /* Controller */,
+				CB8C2B121B7C7B4D00064632 /* View */,
 				CBFC1B791B7C12EC00093C3B /* ZZMoRan.xcdatamodeld */,
+				CBFC1B7F1B7C12EC00093C3B /* Main.storyboard */,
 				CBFC1B821B7C12EC00093C3B /* Images.xcassets */,
 				CBFC1B721B7C12EC00093C3B /* Supporting Files */,
 			);
@@ -299,10 +340,15 @@
 			files = (
 				CB5593111B7C341700B31461 /* ZZFaBuViewController.m in Sources */,
 				CBFC1BA01B7C145400093C3B /* ZZWoDeViewController.m in Sources */,
+				CB8C2B1B1B7C96BA00064632 /* ZZNavigationController.m in Sources */,
+				CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */,
 				CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */,
+				CB8C2B111B7C7B4700064632 /* ZZTabBarView.m in Sources */,
 				CB55931A1B7C5FAC00B31461 /* ZZChaKanViewController.m in Sources */,
+				CB8C2B181B7C95A500064632 /* ZZWoDeNavigationController.m in Sources */,
 				CBFC1B9D1B7C142100093C3B /* ZZGuangchangViewController.m in Sources */,
 				CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */,
+				CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */,
 				CB55931D1B7C5FD900B31461 /* ZZDengRuViewController.m in Sources */,
 				CBFC1B751B7C12EC00093C3B /* main.m in Sources */,
 			);
@@ -423,6 +469,7 @@
 			baseConfigurationReference = A036FE676B31DAE244646DBD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ZZMoRan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -435,6 +482,7 @@
 			baseConfigurationReference = A687079A4D7AD015436055F2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ZZMoRan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
