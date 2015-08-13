@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ZZGuangchangViewController.h"
+#import "ZZWoDeViewController.h"
+#import "ZZFaBuViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +17,55 @@
 
 @implementation AppDelegate
 
+#pragma mark - Coustom methods
+
+/**
+ *  /加载主框架
+ */
+- (void)loadMainFrame
+{
+    //    初始化广场viewController
+    //    初始化广场的navigationController
+    //    将广场navigationController的根controller设定为广场的viewController
+    ZZGuangchangViewController *guangChangViewController = [[ZZGuangchangViewController alloc] init];
+    UINavigationController *guangChangNavigationController = [[UINavigationController alloc] initWithRootViewController:guangChangViewController];
+    guangChangNavigationController.tabBarItem.title = @"广场";
+    guangChangNavigationController.tabBarItem.image = [UIImage imageNamed:@"square"];
+    guangChangNavigationController.tabBarItem.selectedImage = [UIImage imageNamed:@"square_selected"];
+    
+    
+    
+    
+    //    初始化我的的viewController
+    //    初始化我的的navigationController
+    //    将我的的navigationController的根controller设定为广场的viewController
+    ZZWoDeViewController *woDeViewController = [[ZZWoDeViewController alloc] init];
+    UINavigationController *woDeNavigationController = [[UINavigationController alloc] initWithRootViewController:woDeViewController];
+    woDeNavigationController.tabBarItem.title = @"我的";
+    
+    woDeNavigationController.tabBarItem.image = [UIImage imageNamed:@"my"];
+    woDeNavigationController.tabBarItem.selectedImage = [UIImage imageNamed:@"my_selected"];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:@[guangChangNavigationController,
+                                           woDeNavigationController]];
+    
+    
+    self.window.rootViewController = tabBarController;
+    
+}
+
+#pragma mark - Application Lifecylce Methods
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self loadMainFrame];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
