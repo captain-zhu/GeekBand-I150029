@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		37A3B82F868DB5E77C0B04E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B1275014CE80C9BEECAE29 /* libPods.a */; };
-		CB5593111B7C341700B31461 /* ZZFaBuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5593101B7C341700B31461 /* ZZFaBuViewController.m */; };
-		CB55931A1B7C5FAC00B31461 /* ZZChaKanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5593191B7C5FAC00B31461 /* ZZChaKanViewController.m */; };
-		CB55931D1B7C5FD900B31461 /* ZZDengRuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB55931C1B7C5FD900B31461 /* ZZDengRuViewController.m */; };
 		CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */; };
 		CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */; };
-		CB8C2B111B7C7B4700064632 /* ZZTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B101B7C7B4700064632 /* ZZTabBarView.m */; };
 		CB8C2B181B7C95A500064632 /* ZZWoDeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */; };
-		CB8C2B1B1B7C96BA00064632 /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B1A1B7C96BA00064632 /* ZZNavigationController.m */; };
+		CB8C2B211B7C9F1700064632 /* ZZWoDeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B201B7C9F1700064632 /* ZZWoDeViewController.m */; };
+		CB8C2B251B7C9F7A00064632 /* ZZFaBuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B241B7C9F7A00064632 /* ZZFaBuViewController.m */; };
+		CB8C2B281B7C9F8A00064632 /* ZZChaKanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */; };
+		CB8C2B2E1B7C9FD100064632 /* ZZDengRuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */; };
+		CB8C2B331B7CA01A00064632 /* ZZGuangchangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B321B7CA01A00064632 /* ZZGuangchangViewController.m */; };
 		CBFC1B751B7C12EC00093C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B741B7C12EC00093C3B /* main.m */; };
 		CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B771B7C12EC00093C3B /* AppDelegate.m */; };
 		CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B791B7C12EC00093C3B /* ZZMoRan.xcdatamodeld */; };
 		CBFC1B811B7C12EC00093C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFC1B7F1B7C12EC00093C3B /* Main.storyboard */; };
 		CBFC1B831B7C12EC00093C3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFC1B821B7C12EC00093C3B /* Images.xcassets */; };
 		CBFC1B921B7C12EC00093C3B /* ZZMoRanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B911B7C12EC00093C3B /* ZZMoRanTests.m */; };
-		CBFC1B9D1B7C142100093C3B /* ZZGuangchangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B9C1B7C142100093C3B /* ZZGuangchangViewController.m */; };
-		CBFC1BA01B7C145400093C3B /* ZZWoDeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B9F1B7C145400093C3B /* ZZWoDeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,26 +34,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CB8C2B4E1B7CA35700064632 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		63B1275014CE80C9BEECAE29 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A036FE676B31DAE244646DBD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A687079A4D7AD015436055F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		CB55930F1B7C341700B31461 /* ZZFaBuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFaBuViewController.h; sourceTree = "<group>"; };
-		CB5593101B7C341700B31461 /* ZZFaBuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFaBuViewController.m; sourceTree = "<group>"; };
-		CB5593181B7C5FAC00B31461 /* ZZChaKanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZChaKanViewController.h; sourceTree = "<group>"; };
-		CB5593191B7C5FAC00B31461 /* ZZChaKanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZChaKanViewController.m; sourceTree = "<group>"; };
-		CB55931B1B7C5FD900B31461 /* ZZDengRuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDengRuViewController.h; sourceTree = "<group>"; };
-		CB55931C1B7C5FD900B31461 /* ZZDengRuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDengRuViewController.m; sourceTree = "<group>"; };
 		CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTabBarViewController.h; sourceTree = "<group>"; };
 		CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTabBarViewController.m; sourceTree = "<group>"; };
 		CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGuangChangNavigationController.h; sourceTree = "<group>"; };
 		CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGuangChangNavigationController.m; sourceTree = "<group>"; };
-		CB8C2B0F1B7C7B4700064632 /* ZZTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTabBarView.h; sourceTree = "<group>"; };
-		CB8C2B101B7C7B4700064632 /* ZZTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTabBarView.m; sourceTree = "<group>"; };
 		CB8C2B161B7C95A500064632 /* ZZWoDeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWoDeNavigationController.h; sourceTree = "<group>"; };
 		CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWoDeNavigationController.m; sourceTree = "<group>"; };
-		CB8C2B191B7C96BA00064632 /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
-		CB8C2B1A1B7C96BA00064632 /* ZZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationController.m; sourceTree = "<group>"; };
+		CB8C2B1F1B7C9F1700064632 /* ZZWoDeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWoDeViewController.h; sourceTree = "<group>"; };
+		CB8C2B201B7C9F1700064632 /* ZZWoDeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWoDeViewController.m; sourceTree = "<group>"; };
+		CB8C2B231B7C9F7A00064632 /* ZZFaBuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFaBuViewController.h; sourceTree = "<group>"; };
+		CB8C2B241B7C9F7A00064632 /* ZZFaBuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFaBuViewController.m; sourceTree = "<group>"; };
+		CB8C2B261B7C9F8A00064632 /* ZZChaKanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZChaKanViewController.h; sourceTree = "<group>"; };
+		CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZChaKanViewController.m; sourceTree = "<group>"; };
+		CB8C2B2C1B7C9FD100064632 /* ZZDengRuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDengRuViewController.h; sourceTree = "<group>"; };
+		CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDengRuViewController.m; sourceTree = "<group>"; };
+		CB8C2B311B7CA01A00064632 /* ZZGuangchangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGuangchangViewController.h; sourceTree = "<group>"; };
+		CB8C2B321B7CA01A00064632 /* ZZGuangchangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGuangchangViewController.m; sourceTree = "<group>"; };
 		CBFC1B6F1B7C12EC00093C3B /* ZZMoRan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMoRan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFC1B731B7C12EC00093C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFC1B741B7C12EC00093C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,10 +78,6 @@
 		CBFC1B8B1B7C12EC00093C3B /* ZZMoRanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZMoRanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFC1B901B7C12EC00093C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFC1B911B7C12EC00093C3B /* ZZMoRanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMoRanTests.m; sourceTree = "<group>"; };
-		CBFC1B9B1B7C142100093C3B /* ZZGuangchangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGuangchangViewController.h; sourceTree = "<group>"; };
-		CBFC1B9C1B7C142100093C3B /* ZZGuangchangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGuangchangViewController.m; sourceTree = "<group>"; };
-		CBFC1B9E1B7C145400093C3B /* ZZWoDeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWoDeViewController.h; sourceTree = "<group>"; };
-		CBFC1B9F1B7C145400093C3B /* ZZWoDeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWoDeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,30 +108,120 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CB8C2B081B7C76DA00064632 /* Controller */ = {
+		CB8C2B121B7C7B4D00064632 /* FaBu */ = {
 			isa = PBXGroup;
 			children = (
-				CB55930F1B7C341700B31461 /* ZZFaBuViewController.h */,
-				CB5593101B7C341700B31461 /* ZZFaBuViewController.m */,
-				CBFC1B9E1B7C145400093C3B /* ZZWoDeViewController.h */,
-				CBFC1B9F1B7C145400093C3B /* ZZWoDeViewController.m */,
-				CB55931B1B7C5FD900B31461 /* ZZDengRuViewController.h */,
-				CB55931C1B7C5FD900B31461 /* ZZDengRuViewController.m */,
-				CBFC1B9B1B7C142100093C3B /* ZZGuangchangViewController.h */,
-				CBFC1B9C1B7C142100093C3B /* ZZGuangchangViewController.m */,
-				CB5593181B7C5FAC00B31461 /* ZZChaKanViewController.h */,
-				CB5593191B7C5FAC00B31461 /* ZZChaKanViewController.m */,
+				CB8C2B2B1B7C9FB700064632 /* Controller */,
+			);
+			name = FaBu;
+			sourceTree = "<group>";
+		};
+		CB8C2B1C1B7C9E6D00064632 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B361B7CA07600064632 /* Category */,
+				CB8C2B1D1B7C9E8100064632 /* Controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CB8C2B1D1B7C9E8100064632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC1B761B7C12EC00093C3B /* AppDelegate.h */,
+				CBFC1B771B7C12EC00093C3B /* AppDelegate.m */,
+				CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */,
+				CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */,
+				CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */,
+				CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */,
+				CB8C2B161B7C95A500064632 /* ZZWoDeNavigationController.h */,
+				CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		CB8C2B121B7C7B4D00064632 /* View */ = {
+		CB8C2B221B7C9F1D00064632 /* WoDe */ = {
 			isa = PBXGroup;
 			children = (
-				CB8C2B0F1B7C7B4700064632 /* ZZTabBarView.h */,
-				CB8C2B101B7C7B4700064632 /* ZZTabBarView.m */,
+				CB8C2B4F1B7CA43200064632 /* Controller */,
 			);
-			name = View;
+			name = WoDe;
+			sourceTree = "<group>";
+		};
+		CB8C2B291B7C9F9100064632 /* ChaKan */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B2A1B7C9FA000064632 /* Controller */,
+			);
+			name = ChaKan;
+			sourceTree = "<group>";
+		};
+		CB8C2B2A1B7C9FA000064632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B261B7C9F8A00064632 /* ZZChaKanViewController.h */,
+				CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB8C2B2B1B7C9FB700064632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B231B7C9F7A00064632 /* ZZFaBuViewController.h */,
+				CB8C2B241B7C9F7A00064632 /* ZZFaBuViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB8C2B2F1B7C9FD500064632 /* DengRu */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B301B7C9FE000064632 /* Controller */,
+			);
+			name = DengRu;
+			sourceTree = "<group>";
+		};
+		CB8C2B301B7C9FE000064632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B2C1B7C9FD100064632 /* ZZDengRuViewController.h */,
+				CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB8C2B341B7CA02300064632 /* GuangChang */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B351B7CA03C00064632 /* Controller */,
+			);
+			name = GuangChang;
+			sourceTree = "<group>";
+		};
+		CB8C2B351B7CA03C00064632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B311B7CA01A00064632 /* ZZGuangchangViewController.h */,
+				CB8C2B321B7CA01A00064632 /* ZZGuangchangViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB8C2B361B7CA07600064632 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		CB8C2B4F1B7CA43200064632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C2B1F1B7C9F1700064632 /* ZZWoDeViewController.h */,
+				CB8C2B201B7C9F1700064632 /* ZZWoDeViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		CBFC1B661B7C12EC00093C3B = {
@@ -150,21 +247,13 @@
 		CBFC1B711B7C12EC00093C3B /* ZZMoRan */ = {
 			isa = PBXGroup;
 			children = (
-				CBFC1B761B7C12EC00093C3B /* AppDelegate.h */,
-				CBFC1B771B7C12EC00093C3B /* AppDelegate.m */,
-				CB8C2B191B7C96BA00064632 /* ZZNavigationController.h */,
-				CB8C2B1A1B7C96BA00064632 /* ZZNavigationController.m */,
-				CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */,
-				CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */,
-				CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */,
-				CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */,
-				CB8C2B161B7C95A500064632 /* ZZWoDeNavigationController.h */,
-				CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */,
-				CB8C2B081B7C76DA00064632 /* Controller */,
-				CB8C2B121B7C7B4D00064632 /* View */,
-				CBFC1B791B7C12EC00093C3B /* ZZMoRan.xcdatamodeld */,
+				CB8C2B1C1B7C9E6D00064632 /* Main */,
+				CB8C2B121B7C7B4D00064632 /* FaBu */,
 				CBFC1B7F1B7C12EC00093C3B /* Main.storyboard */,
-				CBFC1B821B7C12EC00093C3B /* Images.xcassets */,
+				CB8C2B291B7C9F9100064632 /* ChaKan */,
+				CB8C2B221B7C9F1D00064632 /* WoDe */,
+				CB8C2B341B7CA02300064632 /* GuangChang */,
+				CB8C2B2F1B7C9FD500064632 /* DengRu */,
 				CBFC1B721B7C12EC00093C3B /* Supporting Files */,
 			);
 			path = ZZMoRan;
@@ -173,8 +262,10 @@
 		CBFC1B721B7C12EC00093C3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBFC1B821B7C12EC00093C3B /* Images.xcassets */,
 				CBFC1B731B7C12EC00093C3B /* Info.plist */,
 				CBFC1B741B7C12EC00093C3B /* main.m */,
+				CBFC1B791B7C12EC00093C3B /* ZZMoRan.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -216,6 +307,7 @@
 				CBFC1B6C1B7C12EC00093C3B /* Frameworks */,
 				CBFC1B6D1B7C12EC00093C3B /* Resources */,
 				D054AAB4C2C2D453A7772348 /* Copy Pods Resources */,
+				CB8C2B4E1B7CA35700064632 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -338,18 +430,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB5593111B7C341700B31461 /* ZZFaBuViewController.m in Sources */,
-				CBFC1BA01B7C145400093C3B /* ZZWoDeViewController.m in Sources */,
-				CB8C2B1B1B7C96BA00064632 /* ZZNavigationController.m in Sources */,
+				CB8C2B251B7C9F7A00064632 /* ZZFaBuViewController.m in Sources */,
+				CB8C2B211B7C9F1700064632 /* ZZWoDeViewController.m in Sources */,
 				CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */,
+				CB8C2B331B7CA01A00064632 /* ZZGuangchangViewController.m in Sources */,
+				CB8C2B281B7C9F8A00064632 /* ZZChaKanViewController.m in Sources */,
 				CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */,
-				CB8C2B111B7C7B4700064632 /* ZZTabBarView.m in Sources */,
-				CB55931A1B7C5FAC00B31461 /* ZZChaKanViewController.m in Sources */,
+				CB8C2B2E1B7C9FD100064632 /* ZZDengRuViewController.m in Sources */,
 				CB8C2B181B7C95A500064632 /* ZZWoDeNavigationController.m in Sources */,
-				CBFC1B9D1B7C142100093C3B /* ZZGuangchangViewController.m in Sources */,
 				CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */,
 				CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */,
-				CB55931D1B7C5FD900B31461 /* ZZDengRuViewController.m in Sources */,
 				CBFC1B751B7C12EC00093C3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
