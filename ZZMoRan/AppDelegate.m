@@ -15,7 +15,7 @@
 
 @implementation AppDelegate
 
-#pragma mark - Application Lifecylce Methods
+#pragma mark - Application Lifecycle Methods
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
@@ -28,8 +28,8 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     
     // 创建根控制器
-    ZZTabBarViewController *tabBarVC = [[ZZTabBarViewController alloc] init];
-    self.window.rootViewController = tabBarVC;
+    ZZTabBarViewController *tabBarViewController = [[ZZTabBarViewController alloc] init];
+    self.window.rootViewController = tabBarViewController;
     
     [self.window makeKeyAndVisible];
     

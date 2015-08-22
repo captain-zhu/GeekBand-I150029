@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37A3B82F868DB5E77C0B04E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B1275014CE80C9BEECAE29 /* libPods.a */; };
+		CB6D03071B8806690090C9E2 /* ZZGuangChangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */; };
 		CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */; };
 		CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */; };
 		CB8C2B181B7C95A500064632 /* ZZWoDeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */; };
@@ -15,7 +16,6 @@
 		CB8C2B251B7C9F7A00064632 /* ZZFaBuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B241B7C9F7A00064632 /* ZZFaBuViewController.m */; };
 		CB8C2B281B7C9F8A00064632 /* ZZChaKanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */; };
 		CB8C2B2E1B7C9FD100064632 /* ZZDengRuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */; };
-		CB8C2B331B7CA01A00064632 /* ZZGuangchangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B321B7CA01A00064632 /* ZZGuangchangViewController.m */; };
 		CBFC1B751B7C12EC00093C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B741B7C12EC00093C3B /* main.m */; };
 		CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B771B7C12EC00093C3B /* AppDelegate.m */; };
 		CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B791B7C12EC00093C3B /* ZZMoRan.xcdatamodeld */; };
@@ -51,6 +51,9 @@
 		63B1275014CE80C9BEECAE29 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A036FE676B31DAE244646DBD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A687079A4D7AD015436055F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CB6D03041B87FDAD0090C9E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CB6D03051B8806690090C9E2 /* ZZGuangChangTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGuangChangTableViewController.h; path = ../ZZGuangChangTableViewController.h; sourceTree = "<group>"; };
+		CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGuangChangTableViewController.m; path = ../ZZGuangChangTableViewController.m; sourceTree = "<group>"; };
 		CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTabBarViewController.h; sourceTree = "<group>"; };
 		CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTabBarViewController.m; sourceTree = "<group>"; };
 		CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGuangChangNavigationController.h; sourceTree = "<group>"; };
@@ -65,8 +68,6 @@
 		CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZChaKanViewController.m; sourceTree = "<group>"; };
 		CB8C2B2C1B7C9FD100064632 /* ZZDengRuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDengRuViewController.h; sourceTree = "<group>"; };
 		CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDengRuViewController.m; sourceTree = "<group>"; };
-		CB8C2B311B7CA01A00064632 /* ZZGuangchangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGuangchangViewController.h; sourceTree = "<group>"; };
-		CB8C2B321B7CA01A00064632 /* ZZGuangchangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGuangchangViewController.m; sourceTree = "<group>"; };
 		CBFC1B6F1B7C12EC00093C3B /* ZZMoRan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMoRan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFC1B731B7C12EC00093C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFC1B741B7C12EC00093C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -202,8 +203,8 @@
 		CB8C2B351B7CA03C00064632 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB8C2B311B7CA01A00064632 /* ZZGuangchangViewController.h */,
-				CB8C2B321B7CA01A00064632 /* ZZGuangchangViewController.m */,
+				CB6D03051B8806690090C9E2 /* ZZGuangChangTableViewController.h */,
+				CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -262,6 +263,7 @@
 		CBFC1B721B7C12EC00093C3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB6D03041B87FDAD0090C9E2 /* PrefixHeader.pch */,
 				CBFC1B821B7C12EC00093C3B /* Images.xcassets */,
 				CBFC1B731B7C12EC00093C3B /* Info.plist */,
 				CBFC1B741B7C12EC00093C3B /* main.m */,
@@ -433,7 +435,7 @@
 				CB8C2B251B7C9F7A00064632 /* ZZFaBuViewController.m in Sources */,
 				CB8C2B211B7C9F1700064632 /* ZZWoDeViewController.m in Sources */,
 				CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */,
-				CB8C2B331B7CA01A00064632 /* ZZGuangchangViewController.m in Sources */,
+				CB6D03071B8806690090C9E2 /* ZZGuangChangTableViewController.m in Sources */,
 				CB8C2B281B7C9F8A00064632 /* ZZChaKanViewController.m in Sources */,
 				CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */,
 				CB8C2B2E1B7C9FD100064632 /* ZZDengRuViewController.m in Sources */,

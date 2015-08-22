@@ -7,7 +7,7 @@
 //
 
 #import "ZZGuangChangNavigationController.h"
-#import "ZZGuangchangViewController.h"
+#import "ZZGuangChangTableViewController.h"
 #import "ZZChaKanViewController.h"
 
 @interface ZZGuangChangNavigationController ()
@@ -15,6 +15,8 @@
 @end
 
 @implementation ZZGuangChangNavigationController
+
+#pragma mark - Life cycle methods
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,7 +28,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-// 重写push方法，使不是根控制器点击push时隐藏TabBar
+#pragma mark - Custom methods
+
+/**
+* 重写push方法，使不是根控制器点击push时隐藏TabBar
+*/
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     if (self.viewControllers.count > 0) {
