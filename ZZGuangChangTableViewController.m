@@ -7,6 +7,8 @@
 //
 
 #import "ZZGuangChangTableViewController.h"
+#import "ZZHorizontalTableViewCell.h"
+#import "AddressCell.h"
 
 @interface ZZGuangChangTableViewController ()
 
@@ -16,8 +18,28 @@
 
 #pragma mark - Life cycle methods
 
+- (id)initWithStyle:(UITableViewStyle)style {
+    self = [super initWithStyle:style];
+    if (self) {
+        // Custom initializtion
+    }
+
+    return self;
+}
+
+- (void)awakeFromNib {
+    [self.tableView setBackgroundColor:[UIColor colorWithRed:235.0f/255.0 green:236.0f/255.0f
+                                                        blue:236.0f/255.0 alpha:1]];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.tableView.separatorColor = [UIColor colorWithRed:213.0f/255.0f
+                                                    green:213.0f/255.0f blue:213.0f/255.0f alpha:1];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    _dataDictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle]
+            pathForResource:@"Articles" ofType:@"plist"]];
 
     [self customNavigationBar];
 }
@@ -51,69 +73,79 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+
+    return [_dataDictionary.allKeys count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return 2;
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
+    if (indexPath.row == 0) {
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
+        static NSString *CellIdentifier = @"AddressCell";
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
+        AddressCell *cell = (AddressCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
+        if (cell == nil) {
+            cell = [[AddressCell alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
+        }
 
-/*
-#pragma mark - Navigation
+        NSArray *addresses = [self.dataDictionary allKeys];
+        NSString *address = [addresses objectAtIndex:indexPath.section];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+        cell.addressLabel.text = address;
+        return cell;
+
+    } else {
+        static NSString *CellIdentifier = @"HorizontalCell";
+        ZZHorizontalTableViewCell *cell = (ZZHorizontalTableViewCell *)[tableView
+                dequeueReusableCellWithIdentifier:CellIdentifier];
+
+        if (cell == nil) {
+            cell = [[ZZHorizontalTableViewCell alloc] initWithFrame:
+                    CGRectMake(0, 0, tableView.frame.size.width, tableView.frame.size.height)];
+        }
+
+        NSArray *array = [self.dataDictionary allKeys];
+        NSString *itemName = [array objectAtIndex:indexPath.section];
+
+        cell.items = [self.dataDictionary objectForKey:itemName];
+
+        return cell;
+    }
 }
-*/
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        return 25;
+    } else {
+        return 150;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		37A3B82F868DB5E77C0B04E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B1275014CE80C9BEECAE29 /* libPods.a */; };
+		CB3B35231B89E42800172C24 /* ZZHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B35221B89E42800172C24 /* ZZHorizontalTableViewCell.m */; };
+		CB3B35271B89E47700172C24 /* ZZItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B35261B89E47700172C24 /* ZZItemCell.m */; };
+		CB3B35321B89ED9900172C24 /* Articles.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB3B35311B89ED9900172C24 /* Articles.plist */; };
+		CB3B35391B89FD7000172C24 /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B35381B89FD7000172C24 /* AddressCell.m */; };
 		CB6D03071B8806690090C9E2 /* ZZGuangChangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */; };
 		CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */; };
 		CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */; };
@@ -51,6 +55,14 @@
 		63B1275014CE80C9BEECAE29 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A036FE676B31DAE244646DBD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A687079A4D7AD015436055F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CB3B35211B89E42800172C24 /* ZZHorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHorizontalTableViewCell.h; sourceTree = "<group>"; };
+		CB3B35221B89E42800172C24 /* ZZHorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHorizontalTableViewCell.m; sourceTree = "<group>"; };
+		CB3B35251B89E47700172C24 /* ZZItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZItemCell.h; sourceTree = "<group>"; };
+		CB3B35261B89E47700172C24 /* ZZItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZItemCell.m; sourceTree = "<group>"; };
+		CB3B35291B89E4F100172C24 /* ZZCellVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCellVariables.h; sourceTree = "<group>"; };
+		CB3B35311B89ED9900172C24 /* Articles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Articles.plist; sourceTree = "<group>"; };
+		CB3B35371B89FD7000172C24 /* AddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
+		CB3B35381B89FD7000172C24 /* AddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCell.m; sourceTree = "<group>"; };
 		CB6D03041B87FDAD0090C9E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CB6D03051B8806690090C9E2 /* ZZGuangChangTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGuangChangTableViewController.h; path = ../ZZGuangChangTableViewController.h; sourceTree = "<group>"; };
 		CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGuangChangTableViewController.m; path = ../ZZGuangChangTableViewController.m; sourceTree = "<group>"; };
@@ -107,6 +119,26 @@
 				A687079A4D7AD015436055F2 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB3B35241B89E42E00172C24 /* HorizontalTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B35211B89E42800172C24 /* ZZHorizontalTableViewCell.h */,
+				CB3B35221B89E42800172C24 /* ZZHorizontalTableViewCell.m */,
+				CB3B35251B89E47700172C24 /* ZZItemCell.h */,
+				CB3B35261B89E47700172C24 /* ZZItemCell.m */,
+			);
+			name = HorizontalTableViewCell;
+			sourceTree = "<group>";
+		};
+		CB3B35361B89EFF600172C24 /* AddressCell */ = {
+			isa = PBXGroup;
+			children = (
+				CB3B35371B89FD7000172C24 /* AddressCell.h */,
+				CB3B35381B89FD7000172C24 /* AddressCell.m */,
+			);
+			name = AddressCell;
 			sourceTree = "<group>";
 		};
 		CB8C2B121B7C7B4D00064632 /* FaBu */ = {
@@ -195,7 +227,10 @@
 		CB8C2B341B7CA02300064632 /* GuangChang */ = {
 			isa = PBXGroup;
 			children = (
+				CB3B35291B89E4F100172C24 /* ZZCellVariables.h */,
 				CB8C2B351B7CA03C00064632 /* Controller */,
+				CB3B35241B89E42E00172C24 /* HorizontalTableViewCell */,
+				CB3B35361B89EFF600172C24 /* AddressCell */,
 			);
 			name = GuangChang;
 			sourceTree = "<group>";
@@ -263,6 +298,7 @@
 		CBFC1B721B7C12EC00093C3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB3B35311B89ED9900172C24 /* Articles.plist */,
 				CB6D03041B87FDAD0090C9E2 /* PrefixHeader.pch */,
 				CBFC1B821B7C12EC00093C3B /* Images.xcassets */,
 				CBFC1B731B7C12EC00093C3B /* Info.plist */,
@@ -380,6 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3B35321B89ED9900172C24 /* Articles.plist in Resources */,
 				CBFC1B811B7C12EC00093C3B /* Main.storyboard in Resources */,
 				CBFC1B831B7C12EC00093C3B /* Images.xcassets in Resources */,
 			);
@@ -443,6 +480,9 @@
 				CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */,
 				CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */,
 				CBFC1B751B7C12EC00093C3B /* main.m in Sources */,
+				CB3B35271B89E47700172C24 /* ZZItemCell.m in Sources */,
+				CB3B35391B89FD7000172C24 /* AddressCell.m in Sources */,
+				CB3B35231B89E42800172C24 /* ZZHorizontalTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

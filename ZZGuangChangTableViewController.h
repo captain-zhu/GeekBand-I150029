@@ -10,4 +10,6 @@
 
 @interface ZZGuangChangTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSDictionary *dataDictionary;
+
 @end
