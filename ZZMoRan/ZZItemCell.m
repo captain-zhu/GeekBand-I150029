@@ -26,18 +26,12 @@
     if ((self = [super initWithFrame:frame])) {
 
         //设置照片imageView
-        self.photoImageView = [[UIImageView alloc] initWithFrame:
-                CGRectMake(0, ZZPhotoTopPadding, ZZPhotoWidth, ZZPhotoHeight)];
-        self.photoImageView.opaque = YES;
-        [self.contentView addSubview:self.photoImageView];
+        [self initImageView];
 
         //设置照片描述的Label
-        self.nameLabel = [[UILabel alloc] initWithFrame:
-                CGRectMake(0, 164, ZZPhotoWidth, 27)];
-        self.nameLabel.opaque = YES;
-        self.nameLabel.font = [UIFont fontWithName:@"STHeitiSC-Medium" size:10];
-        [self.contentView addSubview:self.nameLabel];
+        [self initNameLabel];
 
+        // 因为之前tabelview转过一次，这次反方向转回去
         self.transform = CGAffineTransformMakeRotation(M_PI * 0.5);
 
     }
@@ -49,10 +43,34 @@
     // Initialization code
 }
 
+//初始化imageView，用于显示用户照片
+- (void)initImageView
+{
+    self.photoImageView = [[UIImageView alloc] initWithFrame:
+            CGRectMake(0, ZZPhotoTopPadding, ZZPhotoWidth, ZZPhotoHeight)];
+    self.photoImageView.opaque = YES;
+    [self.contentView addSubview:self.photoImageView];
+}
+
+//初始化Label，用于显示用户评论
+- (void)initNameLabel
+{
+    self.nameLabel = [[UILabel alloc] initWithFrame:
+            CGRectMake(0, 114, ZZPhotoWidth - 2 * ZZAddressCellHorizontalPadding, 30)];
+    self.nameLabel.opaque = YES;
+    self.nameLabel.font = [UIFont fontWithName:@"STHeitiSC-Medium" size:10];
+    self.nameLabel.textColor = [UIColor colorWithRed:0.267f green:0.267f blue:0.267f alpha:1];
+    self.nameLabel.numberOfLines = 0;
+    [self.contentView addSubview:self.nameLabel];
+
+}
+
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
 }
+
 
 @end

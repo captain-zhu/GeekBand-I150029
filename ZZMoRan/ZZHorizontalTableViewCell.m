@@ -10,8 +10,10 @@
 #import "ZZItemCell.h"
 #import "ZZCellVariables.h"
 
+
 @implementation ZZHorizontalTableViewCell
 
+//设置单元的reuseIndentifier
 - (NSString *)reuseIdentifier {
     return @"HorizontalCell";
 }
@@ -29,7 +31,7 @@
 
         // 重新设置frame
         [self.horizontalTableView setFrame:
-                CGRectMake(ZZHorizontalCellHorizontalPadding, ZZHorizontalCellVerticalPadding
+                CGRectMake(ZZHorizontalCellHorizontalPadding, 0
                         , frame.size.width - ZZHorizontalCellHorizontalPadding * 2, ZZHorizontalCellHeight)];
 
         self.horizontalTableView.rowHeight = ZZItemWidth;
@@ -61,6 +63,14 @@
     // Configure the view for the selected state
 }
 
+- (void)setFrame:(CGRect)frame {
+
+    frame.origin.x += ZZHorizontalCellHorizontalPadding;
+    frame.size.width -= ZZHorizontalCellHorizontalPadding;
+    [super setFrame:frame];
+
+}
+
 #pragma mark  - Table View Data Source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -75,20 +85,21 @@
 
     if (itemCell == nil) {
         itemCell = [[ZZItemCell alloc] initWithFrame:CGRectMake(
-                15, 0, tableView.frame.size.width - 15, 150)];
+                0, 0, ZZHorizontalCellWidth + ZZItemCellHorizontalPadding, ZZHorizontalCellHeight)];
     }
 
     NSDictionary *currentItem = [self.items objectAtIndex:indexPath.row];
 
     itemCell.photoImageView.image = [UIImage imageNamed:[currentItem objectForKey:@"ImageName"]];
     itemCell.nameLabel.text = [currentItem objectForKey:@"Title"];
-
+    [itemCell.nameLabel sizeToFit];
     return itemCell;
 
 }
 
-
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return ZZPhotoWidth + ZZItemCellHorizontalPadding;
+}
 
 
 

@@ -42,6 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CBFC1B6E1B7C12EC00093C3B"
+            BuildableName = "ZZMoRan.app"
+            BlueprintName = "ZZMoRan"
+            ReferencedContainer = "container:../ZZMoRan.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
