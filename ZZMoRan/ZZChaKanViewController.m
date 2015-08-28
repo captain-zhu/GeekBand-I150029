@@ -1,4 +1,3 @@
-//
 //  ZZChaKanViewController.m
 //  ZZMoRan
 //
@@ -27,7 +26,7 @@
 }
 
 - (instancetype)init {
-
+    
     if ((self = [super init])){
         self.view.backgroundColor = UIColorFromRGB(0xebecec);
         self.navigationItem.title =@"查看照片";
@@ -39,9 +38,9 @@
         [self addNameLabel];
         [self addTimeLabel];
     }
-
+    
     return self;
-
+    
 }
 
 
@@ -50,48 +49,47 @@
 - (void)initPhotoImageView
 {
     self.photoImageView = [[UIImageView alloc] initWithFrame:
-            CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.width * 190.f / 280.0f)];
+                           CGRectMake(0, 0, self.view.frame.size.width, 212)];
     self.photoImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.photoImageView.opaque = YES;
     self.photoImageView.clipsToBounds = YES;
-
+    
     [self.view addSubview:self.photoImageView];
 }
 
 - (void)initInformationView
 {
     self.informationView = [[UIView alloc] initWithFrame:
-            CGRectMake(0, 0, self.view.frame.size.width, ZZInformationViewHeight)];
+                            CGRectMake(0, 0, self.view.frame.size.width, ZZInformationViewHeight)];
     self.informationView.backgroundColor = [UIColor whiteColor];
-
+    
     [self.view addSubview:self.informationView];
-
+    
     [self.informationView mas_makeConstraints:^(MASConstraintMaker *maker){
         maker.top.equalTo(self.photoImageView.mas_bottom);
         maker.width.equalTo(self.view.mas_width);
         maker.height.mas_equalTo(ZZInformationViewHeight);
     }];
-
+    
 }
 
 - (void)addPingLunLabel
 {
     self.pingLunLabel = [[UILabel alloc] init];
-
+    
     self.pingLunLabel.font = [UIFont fontWithName:@"STHeitiSC-Medium" size:16];
     self.pingLunLabel.textColor = UIColorFromRGB(0x444444);
-
+    
     [self.informationView addSubview:self.pingLunLabel];
-
+    
     [self.pingLunLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.informationView.mas_top).with.offset(10);
         make.left.equalTo(self.informationView.mas_left).with.offset(13);
     }];
     [self.pingLunLabel sizeToFit];
     self.pingLunLabel.numberOfLines = 0;
-
 }
-
+    
 - (void)addAddressLabel
 {
     //随便初始化小拍照按钮以及拍摄于Label，因为这个不需要输入，就不定为属性了
@@ -103,7 +101,7 @@
         make.top.equalTo(self.pingLunLabel.mas_bottom).with.offset(10);
         make.left.equalTo(self.informationView.mas_left).with.offset(13);
     }];
-
+        
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont fontWithName:@"STHeitiSC-Medium" size:10];
     label.text = @"拍摄于";
@@ -114,7 +112,7 @@
         make.left.equalTo(imageView.mas_right).with.offset(6);
         make.centerY.equalTo(imageView.mas_centerY);
     }];
-
+        
     self.addressLabel = [[UILabel alloc] init];
     self.addressLabel.font = [UIFont fontWithName:@"STHeitiSC-Medium" size:10];
     self.addressLabel.textColor = UIColorFromRGB(0x9f9fa0);
@@ -126,13 +124,13 @@
         make.left.equalTo(label.mas_right).with.offset(3);
         make.centerY.equalTo(label.mas_centerY);
     }];
-
+        
 }
-
+    
 - (void)addTouXiangImageView
 {
     self.touXiangImageView = [[UIImageView alloc] initWithFrame:
-            CGRectMake(13, 57, 30, 30)];
+                                CGRectMake(13, 57, 30, 30)];
     self.touXiangImageView.layer.masksToBounds = FALSE;
     self.touXiangImageView.layer.shouldRasterize = YES;
     self.touXiangImageView.layer.cornerRadius = self.touXiangImageView.frame.size.width * 0.5f;
@@ -140,15 +138,15 @@
     self.touXiangImageView.image = [UIImage imageNamed:@"football.jpg"];
     self.touXiangImageView.clipsToBounds = YES;
     self.touXiangImageView.contentMode = UIViewContentModeScaleAspectFill;
-
+        
     [self.informationView addSubview:self.touXiangImageView];
-
+        
 }
-
+    
 - (void)addNameLabel
 {
     self.nameLabel = [[UILabel alloc] initWithFrame:
-            CGRectMake(52, 57, 0, 0)];
+                        CGRectMake(52, 57, 0, 0)];
     self.nameLabel.font = [UIFont fontWithName:@"STHeitiSC-Medium" size:13];
     self.nameLabel.textColor = UIColorFromRGB(0xee7f41);
     self.nameLabel.text = @"一个人类";
@@ -156,11 +154,11 @@
     [self.nameLabel sizeToFit];
     [self.informationView addSubview:self.nameLabel];
 }
-
+    
 - (void)addTimeLabel
 {
     self.timeLabel = [[UILabel alloc] initWithFrame:
-            CGRectMake(52, 75, 0, 0)];
+                        CGRectMake(52, 75, 0, 0)];
     self.timeLabel.font = [UIFont fontWithName:@"STHeitiSC-Medium" size:9];
     self.timeLabel.textColor = UIColorFromRGB(0x9f9fa0);
     self.timeLabel.text = @"07月30日 15:22";
@@ -168,8 +166,8 @@
     [self.timeLabel sizeToFit];
     [self.informationView addSubview:self.timeLabel];
 }
-
-
-
-
+    
+    
+    
+    
 @end
