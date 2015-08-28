@@ -19,7 +19,18 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 #import <CoreData/CoreData.h>
+#import<CoreText/CoreText.h>
+#import "Masonry.h"
+#import "View+MASAdditions.h"
+#import "MASConstraintMaker.h"
 #endif
+
+#define UIColorFromRGB(rgbValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+                green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
+                 blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
+                alpha:1.0]
+#define MAS_SHORTHAND
 
 extern NSString * const ManagedObjectContextSaveDidFailNotification;
 #define FATAL_CORE_DATA_ERROR(__error__)\
@@ -27,5 +38,3 @@ NSLog(@"*** Fatal error in %s:%d\n%@\n%@",\
 __FILE__,__LINE__, error, [error userInfo]);\
 [[NSNotificationCenter defaultCenter] postNotificationName:\
 ManagedObjectContextSaveDidFailNotification object:error];
-
-#endif

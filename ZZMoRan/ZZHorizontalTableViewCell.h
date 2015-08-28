@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZZGuangChangNavigationController.h"
 
-@interface ZZHorizontalTableViewCell : UITableViewCell
+@interface ZZHorizontalTableViewCell : UITableViewCell <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *horizontalTableView;
 @property (nonatomic, strong) NSArray *items;

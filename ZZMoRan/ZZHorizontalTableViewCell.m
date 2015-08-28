@@ -9,7 +9,8 @@
 #import "ZZHorizontalTableViewCell.h"
 #import "ZZItemCell.h"
 #import "ZZCellVariables.h"
-
+#import "ZZChaKanViewController.h"
+#import "AppDelegate.h"
 
 @implementation ZZHorizontalTableViewCell
 
@@ -99,6 +100,22 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return ZZPhotoWidth + ZZItemCellHorizontalPadding;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    ZZChaKanViewController *controller = [[ZZChaKanViewController alloc] init];
+    NSDictionary *currentItem = [self.items objectAtIndex:indexPath.row];
+    NSString *photoName = [currentItem objectForKey:@"ImageName"];
+    controller.photoImageView.image = [UIImage imageNamed:photoName];
+    controller.pingLunLabel.text = [currentItem objectForKey:@"Title"];
+
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
+    [appDelegate.guangChangNavigationController pushViewController:controller animated:YES];
+
 }
 
 

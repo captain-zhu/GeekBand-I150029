@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZZGuangChangNavigationController : UINavigationController
+@interface ZZGuangChangNavigationController : UINavigationController <UINavigationControllerDelegate>
 
 @end

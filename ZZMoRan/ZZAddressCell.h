@@ -1,5 +1,5 @@
 //
-//  AddressCell.h
+//  ZZAddressCell.h
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/23.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddressCell : UITableViewCell
+@interface ZZAddressCell : UITableViewCell
 
 @property (nonatomic, strong) UIImageView *locationImageView;
 @property (nonatomic, strong) UILabel *addressLabel;

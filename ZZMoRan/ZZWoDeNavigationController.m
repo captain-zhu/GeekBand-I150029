@@ -7,6 +7,7 @@
 //
 
 #import "ZZWoDeNavigationController.h"
+#import "PrefixHeader.pch"
 
 @interface ZZWoDeNavigationController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self styleNavigationBar];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +35,23 @@
     
     // 最后一定要调用父类方法
     [super pushViewController:viewController animated:animated];
+}
+
+
+/**
+* 自定义NavigationBar
+*/
+- (void)styleNavigationBar
+{
+    UINavigationBar *navigationBar = self.navigationBar;
+
+    navigationBar.frame =  CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.view.bounds), 64.0f);
+    navigationBar.barTintColor = UIColorFromRGB(0xee7f41);
+    navigationBar.tintColor = [UIColor whiteColor];
+    navigationBar.translucent = NO;
+    NSDictionary *attributes = @{NSFontAttributeName : [UIFont fontWithName:@"STHeitiSC-Medium" size:17],
+            NSForegroundColorAttributeName : [UIColor whiteColor]};
+    [navigationBar setTitleTextAttributes:attributes];
 }
 
 @end

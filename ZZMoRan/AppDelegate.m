@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ZZTabBarViewController.h"
+#import "ZZGuangChangNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -30,7 +31,12 @@
     // 创建根控制器
     ZZTabBarViewController *tabBarViewController = [[ZZTabBarViewController alloc] init];
     self.window.rootViewController = tabBarViewController;
-    
+
+    //创建navigationController
+    self.guangChangNavigationController = tabBarViewController.guangChangNavigationController;
+
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+
     [self.window makeKeyAndVisible];
     
     return YES;

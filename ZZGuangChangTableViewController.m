@@ -7,9 +7,8 @@
 //
 
 #import "ZZGuangChangTableViewController.h"
-#import "ZZChaKanViewController.h"
+#import "ZZAddressCell.h"
 #import "ZZHorizontalTableViewCell.h"
-#import "AddressCell.h"
 #import "ZZCellVariables.h"
 
 @interface ZZGuangChangTableViewController ()
@@ -20,10 +19,23 @@
 
 #pragma mark - Life cycle methods
 
+- (instancetype)init {
+
+    self = [super init];
+    if (self) {
+        _dataDictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle]
+                pathForResource:@"Articles" ofType:@"plist"]];
+
+        self.title = @"附近1000米";
+    }
+
+    return self;
+}
+
 - (id)initWithStyle:(UITableViewStyle)style {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initializtion
+
     }
 
     return self;
@@ -36,35 +48,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    _dataDictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle]
-            pathForResource:@"Articles" ofType:@"plist"]];
 
-    [self customNavigationBar];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Custom methods
-
-/**
-* 自定义NavigationBar
-*/
-- (void)customNavigationBar
-{
-    UINavigationBar *navigationBar = self.navigationController.navigationBar;
-    
-    navigationBar.frame =  CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.view.bounds), 64.0f);
-    navigationBar.barTintColor = [UIColor colorWithRed:238.0f/255.0f green:127.0f/255.0f blue:65.0f/255.0f alpha:1];
-    navigationBar.translucent = NO;
-    NSDictionary *attributes = @{NSFontAttributeName : [UIFont fontWithName:@"STHeitiSC-Medium" size:17],
-                                 NSForegroundColorAttributeName : [UIColor whiteColor]};
-    [navigationBar setTitleTextAttributes:attributes];
-    
-    UINavigationItem *item = navigationBar.topItem;
-    item.title = @"附近1000米";
 }
 
 #pragma mark - Table view data source
@@ -85,12 +74,12 @@
     // 第一行显示地址信息，初始化AddressCell，并将地址信息传递给AddressCell的Label
     if (indexPath.row == 0) {
 
-        static NSString *CellIdentifier = @"AddressCell";
+        static NSString *CellIdentifier = @"ZZAddressCell";
 
-        AddressCell *cell = (AddressCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        ZZAddressCell *cell = (ZZAddressCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 
         if (cell == nil) {
-            cell = [[AddressCell alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
+            cell = [[ZZAddressCell alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
         }
 
         NSArray *addresses = [self.dataDictionary allKeys];
@@ -173,8 +162,6 @@
     [cell addSubview:additionalSeparater];
 
 }
-
-
 
 
 

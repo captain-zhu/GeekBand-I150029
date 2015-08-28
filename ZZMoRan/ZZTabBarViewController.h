@@ -12,4 +12,7 @@
 
 @interface ZZTabBarViewController : UITabBarController
 
+@property (nonatomic, strong)ZZGuangChangNavigationController *guangChangNavigationController;
+@property (nonatomic, strong)UIButton *faBuButton;
+
 @end

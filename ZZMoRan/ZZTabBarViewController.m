@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     // 设置tabBar字体被选中的颜色
     self.tabBar.tintColor = [UIColor orangeColor];
 
@@ -37,8 +37,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
 #pragma mark - Custom Methods
 
 /**
@@ -52,6 +50,7 @@
     guangChangNavigationController.tabBarItem.image = [UIImage imageNamed:@"square"];
     guangChangNavigationController.tabBarItem.selectedImage = [UIImage imageNamed:@"square_selected"];
     [self addChildViewController:guangChangNavigationController];
+    self.guangChangNavigationController = guangChangNavigationController;
 }
 
 /**
@@ -68,22 +67,25 @@
 }
 
 
-
 -(void) addFaBuButton
 {
-    UIButton* button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleTopMargin;
+    UIButton *faBuButton = [[UIButton alloc] init];
+    faBuButton.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleTopMargin;
     UIImage *buttonImage = [UIImage imageNamed:@"publish"];
     UIImage *highlightImage = [UIImage imageNamed:@"publish_hover"];
-    button.frame = CGRectMake(0.0, 0.0, buttonImage.size.width, buttonImage.size.height);
-    [button setBackgroundImage:buttonImage forState:UIControlStateNormal];
-    [button setBackgroundImage:highlightImage forState:UIControlStateHighlighted];
-    
+    faBuButton.frame = CGRectMake(0.0, 0.0, buttonImage.size.width, buttonImage.size.height);
+    [faBuButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
+    [faBuButton setBackgroundImage:highlightImage forState:UIControlStateHighlighted];
+
+
     CGPoint center = self.tabBar.center;
-    center.y = center.y - 22.5;
-    button.center = center;
-    
-    [self.view addSubview:button];
+    center.y = 0;
+    faBuButton.center = center;
+    [self.tabBar addSubview:faBuButton];
+
+    self.faBuButton = faBuButton;
 }
+
+
 
 @end

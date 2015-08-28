@@ -1,5 +1,5 @@
 //
-//  AddressCell.m
+//  ZZAddressCell.m
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/23.
@@ -7,14 +7,14 @@
 //
 
 
-#import "AddressCell.h"
+#import "ZZAddressCell.h"
 #import "ZZCellVariables.h"
 
-@implementation AddressCell
+@implementation ZZAddressCell
 
 // 确定单元的Identifier
 - (NSString *)reuseIdentifier {
-    return @"AddressCell";
+    return @"ZZAddressCell";
 }
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIndentifier:(NSString *)reuseIdentifier
