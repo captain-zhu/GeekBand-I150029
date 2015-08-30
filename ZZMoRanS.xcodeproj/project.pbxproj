@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D9F5014ECD03A2E8700EAB2 /* ZZWatchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F5187B23095617E5B4EA8 /* ZZWatchTableViewController.m */; };
+		5D9F555DCA1657F51F264DA8 /* ZZSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F50BFD1D57F47B12080C3 /* ZZSignInViewController.m */; };
+		5D9F56B028F9A0B0DAA31646 /* ZZMyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F5FD58DB4067CC4F7DB80 /* ZZMyTableViewController.m */; };
 		C7F51A6370A524792D60EA6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29845E5CE28401A64B46204C /* libPods.a */; };
+		CB2F7DAF1B92964100AFE211 /* ZZSquareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2F7DAE1B92964100AFE211 /* ZZSquareTableViewController.m */; };
+		CB2F7DB31B92968D00AFE211 /* ZZPublishTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2F7DB21B92968D00AFE211 /* ZZPublishTableViewController.m */; };
+		CB2F7DC31B92A60100AFE211 /* UIImage+InitWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2F7DC21B92A60100AFE211 /* UIImage+InitWithColor.m */; };
 		CBD0AD9F1B91ED64009B1E8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0AD9E1B91ED64009B1E8B /* main.m */; };
 		CBD0ADA21B91ED64009B1E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0ADA11B91ED64009B1E8B /* AppDelegate.m */; };
-		CBD0ADA51B91ED64009B1E8B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0ADA41B91ED64009B1E8B /* FirstViewController.m */; };
-		CBD0ADA81B91ED64009B1E8B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0ADA71B91ED64009B1E8B /* SecondViewController.m */; };
 		CBD0ADAB1B91ED64009B1E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD0ADA91B91ED64009B1E8B /* Main.storyboard */; };
 		CBD0ADAD1B91ED64009B1E8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD0ADAC1B91ED64009B1E8B /* Images.xcassets */; };
 		CBD0ADB01B91ED64009B1E8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD0ADAE1B91ED64009B1E8B /* LaunchScreen.xib */; };
@@ -32,16 +36,25 @@
 /* Begin PBXFileReference section */
 		208FF482021D8193F87B8E7D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		29845E5CE28401A64B46204C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9F50BFD1D57F47B12080C3 /* ZZSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSignInViewController.m; sourceTree = "<group>"; };
+		5D9F5187B23095617E5B4EA8 /* ZZWatchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZWatchTableViewController.m; path = ZZWatch/ZZWatchTableViewController.m; sourceTree = "<group>"; };
+		5D9F552A6F609797475341FB /* ZZMyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZMyTableViewController.h; path = ZZMy/ZZMyTableViewController.h; sourceTree = "<group>"; };
+		5D9F576F0900C9B2BBFABC19 /* ZZSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSignInViewController.h; sourceTree = "<group>"; };
+		5D9F57BACCF4FCA14E9C4A58 /* ZZWatchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZWatchTableViewController.h; path = ZZWatch/ZZWatchTableViewController.h; sourceTree = "<group>"; };
+		5D9F5FD58DB4067CC4F7DB80 /* ZZMyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZMyTableViewController.m; path = ZZMy/ZZMyTableViewController.m; sourceTree = "<group>"; };
 		B39394F7F0775456EA82714D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CB2F7DAC1B928B9300AFE211 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CB2F7DAD1B92964100AFE211 /* ZZSquareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZSquareTableViewController.h; path = ZZSquareTableViewController/ZZSquareTableViewController.h; sourceTree = "<group>"; };
+		CB2F7DAE1B92964100AFE211 /* ZZSquareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZSquareTableViewController.m; path = ZZSquareTableViewController/ZZSquareTableViewController.m; sourceTree = "<group>"; };
+		CB2F7DB11B92968D00AFE211 /* ZZPublishTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZPublishTableViewController.h; path = ZZPublish/ZZPublishTableViewController.h; sourceTree = "<group>"; };
+		CB2F7DB21B92968D00AFE211 /* ZZPublishTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZPublishTableViewController.m; path = ZZPublish/ZZPublishTableViewController.m; sourceTree = "<group>"; };
+		CB2F7DC11B92A60100AFE211 /* UIImage+InitWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+InitWithColor.h"; path = "Category/UIImage+InitWithColor.h"; sourceTree = "<group>"; };
+		CB2F7DC21B92A60100AFE211 /* UIImage+InitWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+InitWithColor.m"; path = "Category/UIImage+InitWithColor.m"; sourceTree = "<group>"; };
 		CBD0AD991B91ED64009B1E8B /* ZZMoRanS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMoRanS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD0AD9D1B91ED64009B1E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBD0AD9E1B91ED64009B1E8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBD0ADA01B91ED64009B1E8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBD0ADA11B91ED64009B1E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBD0ADA31B91ED64009B1E8B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CBD0ADA41B91ED64009B1E8B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		CBD0ADA61B91ED64009B1E8B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		CBD0ADA71B91ED64009B1E8B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CBD0ADAA1B91ED64009B1E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBD0ADAC1B91ED64009B1E8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBD0ADAF1B91ED64009B1E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,12 +93,66 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5D9F53DE892241F1282E84F2 /* ZZWatch */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F57BACCF4FCA14E9C4A58 /* ZZWatchTableViewController.h */,
+				5D9F5187B23095617E5B4EA8 /* ZZWatchTableViewController.m */,
+			);
+			name = ZZWatch;
+			sourceTree = "<group>";
+		};
+		5D9F53F23228B8BA1DAF7A84 /* ZZSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F576F0900C9B2BBFABC19 /* ZZSignInViewController.h */,
+				5D9F50BFD1D57F47B12080C3 /* ZZSignInViewController.m */,
+			);
+			name = ZZSignIn;
+			sourceTree = "<group>";
+		};
+		5D9F5672F5BFDE303B699C3A /* ZZMy */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F552A6F609797475341FB /* ZZMyTableViewController.h */,
+				5D9F5FD58DB4067CC4F7DB80 /* ZZMyTableViewController.m */,
+			);
+			name = ZZMy;
+			sourceTree = "<group>";
+		};
 		5E0E6CCF08A62FF3BA3997B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				29845E5CE28401A64B46204C /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB2F7DB01B92964500AFE211 /* ZZSquare */ = {
+			isa = PBXGroup;
+			children = (
+				CB2F7DAD1B92964100AFE211 /* ZZSquareTableViewController.h */,
+				CB2F7DAE1B92964100AFE211 /* ZZSquareTableViewController.m */,
+			);
+			name = ZZSquare;
+			sourceTree = "<group>";
+		};
+		CB2F7DB41B92969300AFE211 /* ZZPublish */ = {
+			isa = PBXGroup;
+			children = (
+				CB2F7DB11B92968D00AFE211 /* ZZPublishTableViewController.h */,
+				CB2F7DB21B92968D00AFE211 /* ZZPublishTableViewController.m */,
+			);
+			name = ZZPublish;
+			sourceTree = "<group>";
+		};
+		CB2F7DC41B92A60600AFE211 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CB2F7DC11B92A60100AFE211 /* UIImage+InitWithColor.h */,
+				CB2F7DC21B92A60100AFE211 /* UIImage+InitWithColor.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		CBD0AD901B91ED63009B1E8B = {
@@ -113,15 +180,17 @@
 			children = (
 				CBD0ADA01B91ED64009B1E8B /* AppDelegate.h */,
 				CBD0ADA11B91ED64009B1E8B /* AppDelegate.m */,
-				CBD0ADA31B91ED64009B1E8B /* FirstViewController.h */,
-				CBD0ADA41B91ED64009B1E8B /* FirstViewController.m */,
-				CBD0ADA61B91ED64009B1E8B /* SecondViewController.h */,
-				CBD0ADA71B91ED64009B1E8B /* SecondViewController.m */,
 				CBD0ADA91B91ED64009B1E8B /* Main.storyboard */,
 				CBD0ADAC1B91ED64009B1E8B /* Images.xcassets */,
 				CBD0ADAE1B91ED64009B1E8B /* LaunchScreen.xib */,
 				CBD0AD9C1B91ED64009B1E8B /* Supporting Files */,
 				CBD0ADC81B91F4C5009B1E8B /* ZZTabBarController */,
+				CB2F7DB01B92964500AFE211 /* ZZSquare */,
+				CB2F7DB41B92969300AFE211 /* ZZPublish */,
+				5D9F53DE892241F1282E84F2 /* ZZWatch */,
+				5D9F5672F5BFDE303B699C3A /* ZZMy */,
+				5D9F53F23228B8BA1DAF7A84 /* ZZSignIn */,
+				CB2F7DC41B92A60600AFE211 /* Category */,
 			);
 			path = ZZMoRanS;
 			sourceTree = "<group>";
@@ -129,6 +198,7 @@
 		CBD0AD9C1B91ED64009B1E8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB2F7DAC1B928B9300AFE211 /* PrefixHeader.pch */,
 				CBD0AD9D1B91ED64009B1E8B /* Info.plist */,
 				CBD0AD9E1B91ED64009B1E8B /* main.m */,
 			);
@@ -296,11 +366,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD0ADA81B91ED64009B1E8B /* SecondViewController.m in Sources */,
+				CB2F7DAF1B92964100AFE211 /* ZZSquareTableViewController.m in Sources */,
+				CB2F7DC31B92A60100AFE211 /* UIImage+InitWithColor.m in Sources */,
 				CBD0ADC71B91F4A8009B1E8B /* ZZTabBarController.m in Sources */,
 				CBD0ADA21B91ED64009B1E8B /* AppDelegate.m in Sources */,
-				CBD0ADA51B91ED64009B1E8B /* FirstViewController.m in Sources */,
 				CBD0AD9F1B91ED64009B1E8B /* main.m in Sources */,
+				CB2F7DB31B92968D00AFE211 /* ZZPublishTableViewController.m in Sources */,
+				5D9F5014ECD03A2E8700EAB2 /* ZZWatchTableViewController.m in Sources */,
+				5D9F56B028F9A0B0DAA31646 /* ZZMyTableViewController.m in Sources */,
+				5D9F555DCA1657F51F264DA8 /* ZZSignInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +501,7 @@
 			baseConfigurationReference = 208FF482021D8193F87B8E7D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhuyongxuan1/Documents/Developer/GeekBand-I150029/ZZMoRanS/ZZMoRanS/ZZMoRanS/PrefixHeader.pch";
 				INFOPLIST_FILE = ZZMoRanS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +514,7 @@
 			baseConfigurationReference = B39394F7F0775456EA82714D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhuyongxuan1/Documents/Developer/GeekBand-I150029/ZZMoRanS/ZZMoRanS/ZZMoRanS/PrefixHeader.pch";
 				INFOPLIST_FILE = ZZMoRanS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
