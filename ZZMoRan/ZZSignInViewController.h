@@ -1,5 +1,5 @@
 //
-//  ZZGuangChangNavigationController.h
+//  ZZSignInViewController.h
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZZGuangChangNavigationController : UINavigationController <UINavigationControllerDelegate>
+@interface ZZSignInViewController : UIViewController
 
 @end

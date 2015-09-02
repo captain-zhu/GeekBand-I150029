@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZZGuangChangNavigationController.h"
-#import "ZZWoDeNavigationController.h"
+#import "ZZSquareNavigationController.h"
+#import "ZZMyNavigationController.h"
 
-@interface ZZTabBarViewController : UITabBarController
+@interface ZZTabBarViewController : UITabBarController <UINavigationControllerDelegate>
 
-@property (nonatomic, strong)ZZGuangChangNavigationController *guangChangNavigationController;
-@property (nonatomic, strong)UIButton *faBuButton;
+@property (nonatomic, strong) ZZSquareNavigationController *squareNavigationController;
+@property (nonatomic, strong) ZZMyNavigationController *myNavigationController;
+@property (nonatomic, strong) UIButton *centerButton;
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZZGuangChangNavigationController.h"
+#import "ZZSquareNavigationController.h"
 
 @interface ZZHorizontalTableViewCell : UITableViewCell <UITableViewDelegate, UITableViewDataSource>
 

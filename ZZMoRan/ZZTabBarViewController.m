@@ -7,8 +7,10 @@
 //
 
 #import "ZZTabBarViewController.h"
-#import "ZZGuangchangTableViewController.h"
-#import "ZZWoDeViewController.h"
+#import "ZZSquareTableViewController.h"
+#import "ZZMyViewController.h"
+#import "ZZPublishViewController.h"
+#import "AppDelegate.h"
 
 @interface ZZTabBarViewController ()
 
@@ -21,15 +23,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    // 设置tabBar字体被选中的颜色
-    self.tabBar.tintColor = [UIColor orangeColor];
-
     // 添加子控制器
-    [self addGuangChangNavigationController];
-    [self addWoDeNavigationController];
+    [self addSquareNavigationController];
+//    [self addPublishNavigationController];
+    [self addMyNavigationController];
 
     // 加入发布按钮
-    [self addFaBuButton];
+    [self addCenterButtonWithTarget:self action:@selector(buttonPressd:)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,50 +42,111 @@
 /**
 * 添加“广场”导航控制器及其子控制器
 */
-- (void) addGuangChangNavigationController
+- (void)addSquareNavigationController
 {
-    ZZGuangChangTableViewController *guangChangTableViewController = [[ZZGuangChangTableViewController alloc] init];
-    ZZGuangChangNavigationController *guangChangNavigationController = [[ZZGuangChangNavigationController alloc] initWithRootViewController:guangChangTableViewController];
-    guangChangNavigationController.tabBarItem.title = @"广场";
-    guangChangNavigationController.tabBarItem.image = [UIImage imageNamed:@"square"];
-    guangChangNavigationController.tabBarItem.selectedImage = [UIImage imageNamed:@"square_selected"];
-    [self addChildViewController:guangChangNavigationController];
-    self.guangChangNavigationController = guangChangNavigationController;
+    ZZSquareTableViewController *squareTableViewController = [[ZZSquareTableViewController alloc] init];
+    ZZSquareNavigationController *squareNavigationController = [[ZZSquareNavigationController alloc]
+            initWithRootViewController:squareTableViewController];
+    squareNavigationController.tabBarItem.title = @"广场";
+    squareNavigationController.tabBarItem.image = [UIImage imageNamed:@"square"];
+    squareNavigationController.tabBarItem.selectedImage = [UIImage imageNamed:@"square_selected"];
+    [self addChildViewController:squareNavigationController];
+    self.squareNavigationController = squareNavigationController;
 }
+
+///**
+//* 添加“发布”子控制器
+//*/
+//- (void)addPublishNavigationController
+//{
+//    ZZPublishViewController *publishViewController = [[ZZPublishViewController alloc] init];
+//    publishViewController.title = @"发布照片";
+//    publishViewController.tabBarItem.title = @"";
+//    publishViewController.tabBarItem.enabled = NO;
+//    [self addChildViewController:publishViewController];
+//}
 
 /**
 * 添加“我的”子控制器
 */
-- (void) addWoDeNavigationController
+- (void)addMyNavigationController
 {
-    ZZWoDeViewController *woDeViewController = [[ZZWoDeViewController alloc] init];
-    ZZWoDeNavigationController *woDeNavigationController = [[ZZWoDeNavigationController alloc] initWithRootViewController:woDeViewController];
-    woDeNavigationController.tabBarItem.title = @"我的";
-    woDeNavigationController.tabBarItem.image = [UIImage imageNamed:@"my"];
-    woDeNavigationController.tabBarItem.selectedImage = [UIImage imageNamed:@"my_selected"];
-    [self addChildViewController:woDeNavigationController];
+    ZZMyViewController *myViewController = [[ZZMyViewController alloc] init];
+    self.myNavigationController = [[ZZMyNavigationController alloc] initWithRootViewController:myViewController];
+    self.myNavigationController.tabBarItem.title = @"我的";
+    self.myNavigationController.tabBarItem.image = [UIImage imageNamed:@"my"];
+    self.myNavigationController.tabBarItem.selectedImage = [UIImage imageNamed:@"my_selected"];
+    [self addChildViewController:self.myNavigationController];
 }
 
 
--(void) addFaBuButton
+-(void)addCenterButtonWithTarget:(id)target action:(SEL)action
 {
-    UIButton *faBuButton = [[UIButton alloc] init];
-    faBuButton.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleTopMargin;
+    UIButton *centerButton = [[UIButton alloc] init];
+    centerButton.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleTopMargin;
     UIImage *buttonImage = [UIImage imageNamed:@"publish"];
     UIImage *highlightImage = [UIImage imageNamed:@"publish_hover"];
-    faBuButton.frame = CGRectMake(0.0, 0.0, buttonImage.size.width, buttonImage.size.height);
-    [faBuButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
-    [faBuButton setBackgroundImage:highlightImage forState:UIControlStateHighlighted];
+    centerButton.frame = CGRectMake(0.0, 0.0, buttonImage.size.width, buttonImage.size.height);
+    [centerButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
+    [centerButton setBackgroundImage:highlightImage forState:UIControlStateHighlighted];
+    [centerButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 
 
     CGPoint center = self.tabBar.center;
-    center.y = 0;
-    faBuButton.center = center;
-    [self.tabBar addSubview:faBuButton];
+    center.y -= 22.5;
+    centerButton.center = center;
+    [self.view addSubview:centerButton];
 
-    self.faBuButton = faBuButton;
+    self.centerButton = centerButton;
 }
 
+- (void)buttonPressd:(id)sender {
+
+    self.centerButton.highlighted = YES;
+    self.centerButton.highlighted = NO;
+
+    NSLog(@"Button has been pressd.");
+
+    ZZPublishViewController *publishViewController = [[ZZPublishViewController alloc] init];
+    publishViewController.title = @"发布照片";
+
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    if (self.selectedIndex == 0) {
+        appDelegate.squareNavigationController.delegate = self;
+        [appDelegate.squareNavigationController pushViewController:publishViewController animated:YES];
+    }
+    if (self.selectedIndex == 1) {
+        appDelegate.myNavigationController.delegate = self;
+        [appDelegate.myNavigationController pushViewController:publishViewController animated:YES];
+    }
+
+}
+
+- (void)viewDidLayoutSubviews{
+    self.centerButton.layer.zPosition = 1;
+}
+
+#pragma mark - UINavigationController Delegate
+
+- (void)navigationController:(UINavigationController *)navigationController
+      willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    if (viewController.hidesBottomBarWhenPushed) {
+//        CGRect rect= [self.centerButton convertRect:self.centerButton.bounds toView:self.tabBar];
+        [self.centerButton removeFromSuperview];
+        [self.tabBar addSubview:self.centerButton];
+//        self.centerButton.frame=rect;
+    }
+}
+
+-(void)navigationController:(nonnull UINavigationController *)navigationController
+      didShowViewController:(nonnull UIViewController *)viewController animated:(BOOL)animated{
+    if(!viewController.hidesBottomBarWhenPushed){
+//        CGRect rect= [self.centerButton convertRect:self.centerButton.bounds toView:self.view];
+        [self.centerButton removeFromSuperview];
+        [self.view addSubview:self.centerButton];
+//        self.centerButton.frame=rect;
+    }
+}
 
 
 @end

@@ -1,22 +1,22 @@
 //
-//  ZZGuangChangNavigationController.m
+//  ZZSquareNavigationController.m
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
 //  Copyright (c) 2015年 GeekBand-I150029. All rights reserved.
 //
 
-#import "ZZGuangChangNavigationController.h"
-#import "ZZGuangChangTableViewController.h"
-#import "ZZChaKanViewController.h"
+#import "ZZSquareNavigationController.h"
+#import "ZZSquareTableViewController.h"
+#import "ZZDetalViewController.h"
 #import "ZZTabBarViewController.h"
 #import "PrefixHeader.pch"
 
-@interface ZZGuangChangNavigationController ()
+@interface ZZSquareNavigationController ()
 
 @end
 
-@implementation ZZGuangChangNavigationController
+@implementation ZZSquareNavigationController
 
 #pragma mark - Life cycle methods
 
@@ -25,8 +25,10 @@
 
     self.delegate = self;
 
-    [self styleNavigationBar];
-    
+}
+
+-(void)dealloc {
+    self.delegate = nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,22 +50,6 @@
     
     // 最后一定要调用父类方法
     [super pushViewController:viewController animated:animated];
-}
-
-/**
-* 自定义NavigationBar
-*/
-- (void)styleNavigationBar
-{
-    UINavigationBar *navigationBar = self.navigationBar;
-
-    navigationBar.frame =  CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.view.bounds), 64.0f);
-    navigationBar.barTintColor = UIColorFromRGB(0xee7f41);
-    navigationBar.tintColor = [UIColor whiteColor];
-    navigationBar.translucent = NO;
-    NSDictionary *attributes = @{NSFontAttributeName : [UIFont fontWithName:@"STHeitiSC-Medium" size:17],
-            NSForegroundColorAttributeName : [UIColor whiteColor]};
-    [navigationBar setTitleTextAttributes:attributes];
 }
 
 #pragma mark - UINavigationControllerDelegate

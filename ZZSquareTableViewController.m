@@ -1,21 +1,21 @@
 //
-//  ZZGuangChangTableViewController.m
+//  ZZSquareTableViewController.m
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/22.
 //  Copyright (c) 2015年 GeekBand-I150029. All rights reserved.
 //
 
-#import "ZZGuangChangTableViewController.h"
+#import "ZZSquareTableViewController.h"
 #import "ZZAddressCell.h"
 #import "ZZHorizontalTableViewCell.h"
 #import "ZZCellVariables.h"
 
-@interface ZZGuangChangTableViewController ()
+@interface ZZSquareTableViewController ()
 
 @end
 
-@implementation ZZGuangChangTableViewController
+@implementation ZZSquareTableViewController
 
 #pragma mark - Life cycle methods
 

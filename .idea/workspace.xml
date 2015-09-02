@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d999298-1fca-4d7e-846d-8831655924aa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZWoDeViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZWoDeViewController.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_location.imageset/publish_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_location.imageset/publish_location@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_location.imageset/publish_location@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_repick.imageset/publish_repick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_repick.imageset/publish_repick@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_repick.imageset/publish_repick@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_location.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZZMoRan/Images.xcassets/FaBu/publish_repick.imageset/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZGuangChangTableViewController.h" afterPath="$PROJECT_DIR$/ZZSquareTableViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZGuangChangTableViewController.m" afterPath="$PROJECT_DIR$/ZZSquareTableViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZDetalViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZDetalViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZDengRuViewController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZSignInViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZDengRuViewController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZSignInViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZFaBuViewController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZFaBuViewController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZGuangChangNavigationController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZSquareNavigationController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZGuangChangNavigationController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZSquareNavigationController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZWoDeNavigationController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZMyNavigationController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZWoDeNavigationController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZMyNavigationController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZWoDeViewController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZMyViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ZZMoRan/ZZWoDeViewController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZMyViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/AppDelegate.h" afterPath="$PROJECT_DIR$/ZZMoRan/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/AppDelegate.m" afterPath="$PROJECT_DIR$/ZZMoRan/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/ZZMoRan/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/PrefixHeader.pch" afterPath="$PROJECT_DIR$/ZZMoRan/PrefixHeader.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ZZMoRan.iml" afterPath="$PROJECT_DIR$/.idea/ZZMoRan.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.h" afterPath="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m" afterPath="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZZMoRan.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ZZMoRan.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ZZMoRan.iws" />
@@ -28,70 +55,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ZZGuangChangTableViewController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#163#206#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZZChaKanViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ZZTabBarViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <folding>
+                <element signature="e#154#188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZZPublishViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZZChaKanViewController.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.m">
+      <file leaf-file-name="ZZPublishViewController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.024667932">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.3586338">
+              <caret line="44" column="57" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
               <folding>
-                <element signature="e#154#200#0" expanded="true" />
+                <element signature="e#155#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZZHorizontalTableViewCell.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.m">
+      <file leaf-file-name="ZZMyViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZMyViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrefixHeader.pch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/PrefixHeader.pch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZZHorizontalTableViewCell.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/AppDelegate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZZTabBarViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="74" />
               <folding>
-                <element signature="e#157#194#0" expanded="true" />
+                <element signature="e#143#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZZGuangChangNavigationController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZGuangChangNavigationController.m">
+      <file leaf-file-name="ZZMyNavigationController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZMyNavigationController.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#164#208#0" expanded="true" />
-              </folding>
+              <caret line="10" column="93" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,29 +177,41 @@
         <option value="$PROJECT_DIR$/ZZMoRan/ZZCellVariables.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZItemCell.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZItemCell.m" />
-        <option value="$PROJECT_DIR$/ZZGuangChangTableViewController.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/AddressCell.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZAddressCell.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.h" />
-        <option value="$PROJECT_DIR$/ZZMoRan/AppDelegate.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZFaBuNavigationController.m" />
-        <option value="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m" />
-        <option value="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ChaKanVariables.h" />
         <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/ZZMoRan/MyImageView.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/MyImageView.m" />
-        <option value="$PROJECT_DIR$/ZZMoRan/AppDelegate.m" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.m" />
-        <option value="$PROJECT_DIR$/ZZMoRan/PrefixHeader.pch" />
         <option value="$PROJECT_DIR$/ZZGuangChangTableViewController.m" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZGuangChangNavigationController.m" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZGuangChangNavigationController.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZWoDeNavigationController.m" />
-        <option value="$PROJECT_DIR$/ZZMoRan/ZZWoDeViewController.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZWoDeViewController.m" />
-        <option value="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.h" />
         <option value="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.m" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZWoDeNavigationController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZDetalViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZDengRuViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZSignInViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZFaBuViewController.h" />
+        <option value="$PROJECT_DIR$/ZZGuangChangTableViewController.h" />
+        <option value="$PROJECT_DIR$/ZZSquareTableViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZMyNavigationController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZWoDeViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZMyViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZSquareNavigationController.m" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZMyNavigationController.m" />
+        <option value="$PROJECT_DIR$/ZZMoRan/AppDelegate.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.h" />
+        <option value="$PROJECT_DIR$/ZZMoRan/PrefixHeader.pch" />
+        <option value="$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.m" />
       </list>
     </option>
   </component>
@@ -253,7 +330,11 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChaKan" />
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,7 +352,25 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChaKan" />
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZZMoRan" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZZMoRan" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FaBu" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -448,26 +547,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m</url>
+          <line>102</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m</url>
+          <line>122</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.h">
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.m">
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -536,14 +640,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.h">
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.m">
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -560,14 +664,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.h">
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.m">
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -612,45 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZWoDeNavigationController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/AppDelegate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZZMoRan/main.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZItemCell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -703,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZItemCell.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZZMoRan/ChaKanVariables.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -717,68 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/PrefixHeader.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#461#484#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZGuangChangNavigationController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="101" selection-start-line="10" selection-start-column="101" selection-end-line="10" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZWoDeNavigationController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#158#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZGuangChangNavigationController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#164#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZGuangChangTableViewController.m">
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
@@ -788,30 +789,181 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZDetalViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZDetalViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZSignInViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZSquareTableViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZMyViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZItemCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZItemCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="88" />
           <folding>
             <element signature="e#157#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.h">
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZSquareNavigationController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZChaKanViewController.m">
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZSquareNavigationController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024667932">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZMyNavigationController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="e#154#200#0" expanded="true" />
+            <element signature="e#156#192#0" expanded="true" />
+            <marker date="1441184220000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZHorizontalTableViewCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZMyNavigationController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="93" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZTabBarViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding>
+            <element signature="e#154#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/PrefixHeader.pch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="74" />
+          <folding>
+            <element signature="e#143#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZMyViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZZMoRan/ZZPublishViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3586338">
+          <caret line="44" column="57" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+          <folding>
+            <element signature="e#155#201#0" expanded="true" />
           </folding>
         </state>
       </provider>

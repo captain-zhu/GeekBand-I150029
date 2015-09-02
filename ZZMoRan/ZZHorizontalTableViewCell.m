@@ -9,7 +9,7 @@
 #import "ZZHorizontalTableViewCell.h"
 #import "ZZItemCell.h"
 #import "ZZCellVariables.h"
-#import "ZZChaKanViewController.h"
+#import "ZZDetalViewController.h"
 #import "AppDelegate.h"
 
 @implementation ZZHorizontalTableViewCell
@@ -104,7 +104,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    ZZChaKanViewController *controller = [[ZZChaKanViewController alloc] init];
+    ZZDetalViewController *controller = [[ZZDetalViewController alloc] init];
     NSDictionary *currentItem = [self.items objectAtIndex:indexPath.row];
     NSString *photoName = [currentItem objectForKey:@"ImageName"];
     controller.photoImageView.image = [UIImage imageNamed:photoName];
@@ -114,7 +114,7 @@
 
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 
-    [appDelegate.guangChangNavigationController pushViewController:controller animated:YES];
+    [appDelegate.squareNavigationController pushViewController:controller animated:YES];
 
 }
 

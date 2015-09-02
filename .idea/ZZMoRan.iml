@@ -38,8 +38,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZGuangChangTableViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZGuangChangTableViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/Articles.plist" isTestSource="false" />
@@ -51,28 +49,36 @@
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZAddressCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZAddressCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZCellVariables.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZChaKanViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZChaKanViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZDengRuViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZDengRuViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZFaBuViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZFaBuViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZGuangChangNavigationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZGuangChangNavigationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZDetalViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZDetalViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZHorizontalTableViewCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZHorizontalTableViewCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZItemCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZItemCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZMoRan.xcdatamodeld/ZZMoRan.xcdatamodel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZMyNavigationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZMyNavigationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZPublishViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZPublishViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZSignInViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZSignInViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZSquareNavigationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZSquareNavigationController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZTabBarViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZTabBarViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZWoDeNavigationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZWoDeNavigationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZWoDeViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZWoDeViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZMyViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/ZZMyViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRan/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRanTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZZMoRanTests/ZZMoRanTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZSquareTableViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ZZSquareTableViewController.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../ZZMoRanS/ZZMoRanS/ZZMoRanS/Category/UIImage+InitWithColor.h">
+      <sourceFolder url="file://$MODULE_DIR$/../ZZMoRanS/ZZMoRanS/ZZMoRanS/Category/UIImage+InitWithColor.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../ZZMoRanS/ZZMoRanS/ZZMoRanS/Category/UIImage+InitWithColor.m">
+      <sourceFolder url="file://$MODULE_DIR$/../ZZMoRanS/ZZMoRanS/ZZMoRanS/Category/UIImage+InitWithColor.m" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

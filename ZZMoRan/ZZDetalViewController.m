@@ -6,15 +6,15 @@
 //
 
 #import <Masonry/View+MASShorthandAdditions.h>
-#import "ZZChaKanViewController.h"
+#import "ZZDetalViewController.h"
 #import "ChaKanVariables.h"
 #import "PrefixHeader.pch"
 
-@interface ZZChaKanViewController ()
+@interface ZZDetalViewController ()
 
 @end
 
-@implementation ZZChaKanViewController
+@implementation ZZDetalViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

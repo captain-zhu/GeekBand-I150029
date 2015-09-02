@@ -3,7 +3,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZZChaKanViewController : UIViewController
+@interface ZZDetalViewController : UIViewController
 
 @property (nonatomic, strong) UIImageView *photoImageView;
 @property (nonatomic, strong) UIView *informationView;

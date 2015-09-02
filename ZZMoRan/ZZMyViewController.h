@@ -1,5 +1,5 @@
 //
-//  ZZWoDeViewController.h
+//  ZZMyViewController.h
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZZWoDeViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+@interface ZZMyViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) UITableViewCell *imageCell;
 @property (strong, nonatomic) UITableViewCell *changeNameCell;

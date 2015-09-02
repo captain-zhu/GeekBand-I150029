@@ -12,14 +12,15 @@
 		CB3B35271B89E47700172C24 /* ZZItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B35261B89E47700172C24 /* ZZItemCell.m */; };
 		CB3B35321B89ED9900172C24 /* Articles.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB3B35311B89ED9900172C24 /* Articles.plist */; };
 		CB3B35391B89FD7000172C24 /* ZZAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B35381B89FD7000172C24 /* ZZAddressCell.m */; };
-		CB419D031B90B9010044F3EC /* ZZWoDeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB419D021B90B9010044F3EC /* ZZWoDeViewController.m */; };
-		CB6D03071B8806690090C9E2 /* ZZGuangChangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */; };
+		CB419D031B90B9010044F3EC /* ZZMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB419D021B90B9010044F3EC /* ZZMyViewController.m */; };
+		CB6D03071B8806690090C9E2 /* ZZSquareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6D03061B8806690090C9E2 /* ZZSquareTableViewController.m */; };
 		CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */; };
-		CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */; };
-		CB8C2B181B7C95A500064632 /* ZZWoDeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */; };
-		CB8C2B251B7C9F7A00064632 /* ZZFaBuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B241B7C9F7A00064632 /* ZZFaBuViewController.m */; };
-		CB8C2B281B7C9F8A00064632 /* ZZChaKanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */; };
-		CB8C2B2E1B7C9FD100064632 /* ZZDengRuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */; };
+		CB8C2B0B1B7C794200064632 /* ZZSquareNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B0A1B7C794200064632 /* ZZSquareNavigationController.m */; };
+		CB8C2B181B7C95A500064632 /* ZZMyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B171B7C95A500064632 /* ZZMyNavigationController.m */; };
+		CB8C2B251B7C9F7A00064632 /* ZZPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B241B7C9F7A00064632 /* ZZPublishViewController.m */; };
+		CB8C2B281B7C9F8A00064632 /* ZZDetalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B271B7C9F8A00064632 /* ZZDetalViewController.m */; };
+		CB8C2B2E1B7C9FD100064632 /* ZZSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B2D1B7C9FD100064632 /* ZZSignInViewController.m */; };
+		CBCBB6CF1B96EF9A0070F83E /* UIImage+InitWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCBB6CE1B96EF9A0070F83E /* UIImage+InitWithColor.m */; };
 		CBFC1B751B7C12EC00093C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B741B7C12EC00093C3B /* main.m */; };
 		CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B771B7C12EC00093C3B /* AppDelegate.m */; };
 		CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1B791B7C12EC00093C3B /* ZZMoRan.xcdatamodeld */; };
@@ -63,24 +64,26 @@
 		CB3B35311B89ED9900172C24 /* Articles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Articles.plist; sourceTree = "<group>"; };
 		CB3B35371B89FD7000172C24 /* ZZAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAddressCell.h; sourceTree = "<group>"; };
 		CB3B35381B89FD7000172C24 /* ZZAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAddressCell.m; sourceTree = "<group>"; };
-		CB419D011B90B9010044F3EC /* ZZWoDeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWoDeViewController.h; sourceTree = "<group>"; };
-		CB419D021B90B9010044F3EC /* ZZWoDeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWoDeViewController.m; sourceTree = "<group>"; };
+		CB419D011B90B9010044F3EC /* ZZMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMyViewController.h; sourceTree = "<group>"; };
+		CB419D021B90B9010044F3EC /* ZZMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMyViewController.m; sourceTree = "<group>"; };
 		CB6A28C01B8EF9500053297F /* ChaKanVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaKanVariables.h; sourceTree = "<group>"; };
 		CB6D03041B87FDAD0090C9E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		CB6D03051B8806690090C9E2 /* ZZGuangChangTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZGuangChangTableViewController.h; path = ../ZZGuangChangTableViewController.h; sourceTree = "<group>"; };
-		CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZGuangChangTableViewController.m; path = ../ZZGuangChangTableViewController.m; sourceTree = "<group>"; };
+		CB6D03051B8806690090C9E2 /* ZZSquareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZSquareTableViewController.h; path = ../ZZSquareTableViewController.h; sourceTree = "<group>"; };
+		CB6D03061B8806690090C9E2 /* ZZSquareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZSquareTableViewController.m; path = ../ZZSquareTableViewController.m; sourceTree = "<group>"; };
 		CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTabBarViewController.h; sourceTree = "<group>"; };
 		CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTabBarViewController.m; sourceTree = "<group>"; };
-		CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGuangChangNavigationController.h; sourceTree = "<group>"; };
-		CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGuangChangNavigationController.m; sourceTree = "<group>"; };
-		CB8C2B161B7C95A500064632 /* ZZWoDeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWoDeNavigationController.h; sourceTree = "<group>"; };
-		CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWoDeNavigationController.m; sourceTree = "<group>"; };
-		CB8C2B231B7C9F7A00064632 /* ZZFaBuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFaBuViewController.h; sourceTree = "<group>"; };
-		CB8C2B241B7C9F7A00064632 /* ZZFaBuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFaBuViewController.m; sourceTree = "<group>"; };
-		CB8C2B261B7C9F8A00064632 /* ZZChaKanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZChaKanViewController.h; sourceTree = "<group>"; };
-		CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZChaKanViewController.m; sourceTree = "<group>"; };
-		CB8C2B2C1B7C9FD100064632 /* ZZDengRuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDengRuViewController.h; sourceTree = "<group>"; };
-		CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDengRuViewController.m; sourceTree = "<group>"; };
+		CB8C2B091B7C794200064632 /* ZZSquareNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSquareNavigationController.h; sourceTree = "<group>"; };
+		CB8C2B0A1B7C794200064632 /* ZZSquareNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSquareNavigationController.m; sourceTree = "<group>"; };
+		CB8C2B161B7C95A500064632 /* ZZMyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMyNavigationController.h; sourceTree = "<group>"; };
+		CB8C2B171B7C95A500064632 /* ZZMyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMyNavigationController.m; sourceTree = "<group>"; };
+		CB8C2B231B7C9F7A00064632 /* ZZPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPublishViewController.h; sourceTree = "<group>"; };
+		CB8C2B241B7C9F7A00064632 /* ZZPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPublishViewController.m; sourceTree = "<group>"; };
+		CB8C2B261B7C9F8A00064632 /* ZZDetalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDetalViewController.h; sourceTree = "<group>"; };
+		CB8C2B271B7C9F8A00064632 /* ZZDetalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDetalViewController.m; sourceTree = "<group>"; };
+		CB8C2B2C1B7C9FD100064632 /* ZZSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSignInViewController.h; sourceTree = "<group>"; };
+		CB8C2B2D1B7C9FD100064632 /* ZZSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSignInViewController.m; sourceTree = "<group>"; };
+		CBCBB6CD1B96EF9A0070F83E /* UIImage+InitWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+InitWithColor.h"; path = "../../ZZMoRanS/ZZMoRanS/ZZMoRanS/Category/UIImage+InitWithColor.h"; sourceTree = "<group>"; };
+		CBCBB6CE1B96EF9A0070F83E /* UIImage+InitWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+InitWithColor.m"; path = "../../ZZMoRanS/ZZMoRanS/ZZMoRanS/Category/UIImage+InitWithColor.m"; sourceTree = "<group>"; };
 		CBFC1B6F1B7C12EC00093C3B /* ZZMoRan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZMoRan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFC1B731B7C12EC00093C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFC1B741B7C12EC00093C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -166,10 +169,10 @@
 				CBFC1B771B7C12EC00093C3B /* AppDelegate.m */,
 				CB8C2B051B7C76C400064632 /* ZZTabBarViewController.h */,
 				CB8C2B061B7C76C400064632 /* ZZTabBarViewController.m */,
-				CB8C2B091B7C794200064632 /* ZZGuangChangNavigationController.h */,
-				CB8C2B0A1B7C794200064632 /* ZZGuangChangNavigationController.m */,
-				CB8C2B161B7C95A500064632 /* ZZWoDeNavigationController.h */,
-				CB8C2B171B7C95A500064632 /* ZZWoDeNavigationController.m */,
+				CB8C2B091B7C794200064632 /* ZZSquareNavigationController.h */,
+				CB8C2B0A1B7C794200064632 /* ZZSquareNavigationController.m */,
+				CB8C2B161B7C95A500064632 /* ZZMyNavigationController.h */,
+				CB8C2B171B7C95A500064632 /* ZZMyNavigationController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -194,8 +197,8 @@
 		CB8C2B2A1B7C9FA000064632 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB8C2B261B7C9F8A00064632 /* ZZChaKanViewController.h */,
-				CB8C2B271B7C9F8A00064632 /* ZZChaKanViewController.m */,
+				CB8C2B261B7C9F8A00064632 /* ZZDetalViewController.h */,
+				CB8C2B271B7C9F8A00064632 /* ZZDetalViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -203,8 +206,8 @@
 		CB8C2B2B1B7C9FB700064632 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB8C2B231B7C9F7A00064632 /* ZZFaBuViewController.h */,
-				CB8C2B241B7C9F7A00064632 /* ZZFaBuViewController.m */,
+				CB8C2B231B7C9F7A00064632 /* ZZPublishViewController.h */,
+				CB8C2B241B7C9F7A00064632 /* ZZPublishViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -220,8 +223,8 @@
 		CB8C2B301B7C9FE000064632 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB8C2B2C1B7C9FD100064632 /* ZZDengRuViewController.h */,
-				CB8C2B2D1B7C9FD100064632 /* ZZDengRuViewController.m */,
+				CB8C2B2C1B7C9FD100064632 /* ZZSignInViewController.h */,
+				CB8C2B2D1B7C9FD100064632 /* ZZSignInViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -240,8 +243,8 @@
 		CB8C2B351B7CA03C00064632 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB6D03051B8806690090C9E2 /* ZZGuangChangTableViewController.h */,
-				CB6D03061B8806690090C9E2 /* ZZGuangChangTableViewController.m */,
+				CB6D03051B8806690090C9E2 /* ZZSquareTableViewController.h */,
+				CB6D03061B8806690090C9E2 /* ZZSquareTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -256,10 +259,19 @@
 		CB8C2B4F1B7CA43200064632 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB419D011B90B9010044F3EC /* ZZWoDeViewController.h */,
-				CB419D021B90B9010044F3EC /* ZZWoDeViewController.m */,
+				CB419D011B90B9010044F3EC /* ZZMyViewController.h */,
+				CB419D021B90B9010044F3EC /* ZZMyViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		CBCBB6D01B96EF9F0070F83E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CBCBB6CD1B96EF9A0070F83E /* UIImage+InitWithColor.h */,
+				CBCBB6CE1B96EF9A0070F83E /* UIImage+InitWithColor.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		CBFC1B661B7C12EC00093C3B = {
@@ -285,6 +297,7 @@
 		CBFC1B711B7C12EC00093C3B /* ZZMoRan */ = {
 			isa = PBXGroup;
 			children = (
+				CBCBB6D01B96EF9F0070F83E /* Category */,
 				CB8C2B1C1B7C9E6D00064632 /* Main */,
 				CB8C2B121B7C7B4D00064632 /* FaBu */,
 				CBFC1B7F1B7C12EC00093C3B /* Main.storyboard */,
@@ -471,14 +484,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8C2B251B7C9F7A00064632 /* ZZFaBuViewController.m in Sources */,
-				CB8C2B0B1B7C794200064632 /* ZZGuangChangNavigationController.m in Sources */,
-				CB6D03071B8806690090C9E2 /* ZZGuangChangTableViewController.m in Sources */,
-				CB419D031B90B9010044F3EC /* ZZWoDeViewController.m in Sources */,
-				CB8C2B281B7C9F8A00064632 /* ZZChaKanViewController.m in Sources */,
+				CB8C2B251B7C9F7A00064632 /* ZZPublishViewController.m in Sources */,
+				CB8C2B0B1B7C794200064632 /* ZZSquareNavigationController.m in Sources */,
+				CB6D03071B8806690090C9E2 /* ZZSquareTableViewController.m in Sources */,
+				CB419D031B90B9010044F3EC /* ZZMyViewController.m in Sources */,
+				CB8C2B281B7C9F8A00064632 /* ZZDetalViewController.m in Sources */,
 				CBFC1B781B7C12EC00093C3B /* AppDelegate.m in Sources */,
-				CB8C2B2E1B7C9FD100064632 /* ZZDengRuViewController.m in Sources */,
-				CB8C2B181B7C95A500064632 /* ZZWoDeNavigationController.m in Sources */,
+				CB8C2B2E1B7C9FD100064632 /* ZZSignInViewController.m in Sources */,
+				CBCBB6CF1B96EF9A0070F83E /* UIImage+InitWithColor.m in Sources */,
+				CB8C2B181B7C95A500064632 /* ZZMyNavigationController.m in Sources */,
 				CBFC1B7B1B7C12EC00093C3B /* ZZMoRan.xcdatamodeld in Sources */,
 				CB8C2B071B7C76C400064632 /* ZZTabBarViewController.m in Sources */,
 				CBFC1B751B7C12EC00093C3B /* main.m in Sources */,

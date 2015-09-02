@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@class ZZGuangChangNavigationController;
+@class ZZSquareNavigationController;
+@class ZZMyNavigationController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -19,7 +20,8 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
-@property (nonatomic, strong) ZZGuangChangNavigationController *guangChangNavigationController;
+@property (nonatomic, strong) ZZSquareNavigationController *squareNavigationController;
+@property (nonatomic, strong) ZZMyNavigationController *myNavigationController;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;

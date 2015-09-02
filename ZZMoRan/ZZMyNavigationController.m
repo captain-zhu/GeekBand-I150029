@@ -1,23 +1,28 @@
 //
-//  ZZWoDeNavigationController.m
+//  ZZMyNavigationController.m
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
 //  Copyright (c) 2015年 GeekBand-I150029. All rights reserved.
 //
 
-#import "ZZWoDeNavigationController.h"
+#import "ZZMyNavigationController.h"
 #import "PrefixHeader.pch"
 
-@interface ZZWoDeNavigationController ()
+@interface ZZMyNavigationController ()
 
 @end
 
-@implementation ZZWoDeNavigationController
+@implementation ZZMyNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self styleNavigationBar];
+
+    self.delegate = self;
+}
+
+-(void)dealloc {
+    self.delegate = nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,21 +42,13 @@
     [super pushViewController:viewController animated:animated];
 }
 
+#pragma mark - UINavigationControllerDelegate
 
-/**
-* 自定义NavigationBar
-*/
-- (void)styleNavigationBar
-{
-    UINavigationBar *navigationBar = self.navigationBar;
-
-    navigationBar.frame =  CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.view.bounds), 64.0f);
-    navigationBar.barTintColor = UIColorFromRGB(0xee7f41);
-    navigationBar.tintColor = [UIColor whiteColor];
-    navigationBar.translucent = NO;
-    NSDictionary *attributes = @{NSFontAttributeName : [UIFont fontWithName:@"STHeitiSC-Medium" size:17],
-            NSForegroundColorAttributeName : [UIColor whiteColor]};
-    [navigationBar setTitleTextAttributes:attributes];
+//使得navigation bar的back按键不显示前者的title
+- (void)navigationController:(UINavigationController *)navigationController
+      willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    viewController.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]
+            initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
 }
 
 @end

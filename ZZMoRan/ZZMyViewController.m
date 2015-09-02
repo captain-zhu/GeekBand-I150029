@@ -1,5 +1,5 @@
 //
-//  ZZWoDeViewController.m
+//  ZZMyViewController.m
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
@@ -7,14 +7,14 @@
 //
 
 #import <Masonry/View+MASShorthandAdditions.h>
-#import "ZZWoDeViewController.h"
+#import "ZZMyViewController.h"
 #import "PrefixHeader.pch"
 
-@interface ZZWoDeViewController ()
+@interface ZZMyViewController ()
 
 @end
 
-@implementation ZZWoDeViewController
+@implementation ZZMyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

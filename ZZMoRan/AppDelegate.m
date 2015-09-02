@@ -8,13 +8,45 @@
 
 #import "AppDelegate.h"
 #import "ZZTabBarViewController.h"
-#import "ZZGuangChangNavigationController.h"
+#import "ZZSquareNavigationController.h"
+#import "PrefixHeader.pch"
+#import "UIImage+InitWithColor.h"
+//#import "ZZMyNavigationController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+
+- (void)customizedAppearance
+{
+    //设置所有navigation bar 的外观
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setFrame:CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.window.bounds), 64.0f)];
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xee7f41)];
+    [[UINavigationBar appearance] setTranslucent:YES];
+    [[UINavigationBar appearance] setTitleTextAttributes:
+            @{NSFontAttributeName : [UIFont fontWithName:@"STHeitiSC-Medium" size:17],
+                    NSForegroundColorAttributeName : [UIColor whiteColor]}];
+
+    // 设置所有tar bar 的外观
+    [[UITabBar appearance] setTintColor:UIColorFromRGB(0xee7f41)];
+    [[UITabBar appearance] setFrame:CGRectMake(0, self.window.bounds.size.height - 49, self.window.bounds.size.width, 49)];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"STHeitiSC-Light" size:10]}
+                                             forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"STHeitiSC-Light" size:10]}
+                                             forState:UIControlStateHighlighted];
+    [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(0, - 5)];
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    CGRect frame = CGRectMake(0, 0, self.window.bounds.size.width, 49);
+    UIImage *backGroundImage = [UIImage initWithColor:UIColorFromRGB(0xeeeeee) setFrame:frame];
+    [[UITabBar appearance] setBackgroundImage:backGroundImage];
+
+}
+
+
+
 
 #pragma mark - Application Lifecycle Methods
 
@@ -23,7 +55,7 @@
     // 启动后显示状态栏
     UIApplication *app = [UIApplication sharedApplication];
     app.statusBarHidden = NO;
-    
+
     // 设置窗口
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
@@ -33,9 +65,11 @@
     self.window.rootViewController = tabBarViewController;
 
     //创建navigationController
-    self.guangChangNavigationController = tabBarViewController.guangChangNavigationController;
+    self.squareNavigationController = tabBarViewController.squareNavigationController;
+    self.myNavigationController = tabBarViewController.myNavigationController;
 
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    //自定义所有NavigationBar和Tabbar的外观
+    [self customizedAppearance];
 
     [self.window makeKeyAndVisible];
     

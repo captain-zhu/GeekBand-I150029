@@ -1,5 +1,5 @@
 //
-//  ZZGuangChangTableViewController.h
+//  ZZSquareTableViewController.h
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/22.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZZGuangChangTableViewController : UITableViewController
+@interface ZZSquareTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSDictionary *dataDictionary;
 

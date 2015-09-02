@@ -1,5 +1,5 @@
 //
-//  ZZWoDeNavigationController.h
+//  ZZMyNavigationController.h
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZZWoDeNavigationController : UINavigationController
+@interface ZZMyNavigationController : UINavigationController <UINavigationControllerDelegate>
 
 @end

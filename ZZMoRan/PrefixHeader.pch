@@ -30,6 +30,13 @@
                 green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
                  blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
                 alpha:1.0]
+
+#define UIColorFromRGBAndAlpha(rgbValue, a) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+                green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
+                 blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
+                alpha:a]
+
 #define MAS_SHORTHAND
 
 extern NSString * const ManagedObjectContextSaveDidFailNotification;

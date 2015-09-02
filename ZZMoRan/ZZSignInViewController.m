@@ -1,18 +1,18 @@
 //
-//  ZZFaBuViewController.m
+//  ZZSignInViewController.m
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
 //  Copyright (c) 2015年 GeekBand-I150029. All rights reserved.
 //
 
-#import "ZZFaBuViewController.h"
+#import "ZZSignInViewController.h"
 
-@interface ZZFaBuViewController ()
+@interface ZZSignInViewController ()
 
 @end
 
-@implementation ZZFaBuViewController
+@implementation ZZSignInViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

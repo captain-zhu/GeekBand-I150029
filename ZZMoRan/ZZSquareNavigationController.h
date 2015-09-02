@@ -1,5 +1,5 @@
 //
-//  ZZDengRuViewController.h
+//  ZZSquareNavigationController.h
 //  ZZMoRan
 //
 //  Created by zhu yongxuan on 15/8/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZZDengRuViewController : UIViewController
+@interface ZZSquareNavigationController : UINavigationController <UINavigationControllerDelegate>
 
 @end
